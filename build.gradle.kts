@@ -13,6 +13,7 @@ repositories {
 }
 
 dependencies {
+    implementation(kotlin("script-runtime"))
     testImplementation(kotlin("test"))
 }
 
