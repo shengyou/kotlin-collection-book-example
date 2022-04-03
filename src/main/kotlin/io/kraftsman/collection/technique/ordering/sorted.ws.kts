@@ -5,8 +5,8 @@ package io.kraftsman.collection.technique.ordering
  */
 
 // 建立範例資料
-val numbers = listOf(1, 2, 3, 4, 5)
-val string = setOf("one", "two", "three", "four", "five")
+val numbers = listOf(4, 1, 3, 5, 2)
+val string = setOf("two", "one", "four", "five", "three")
 
 // 測試 APIs
 numbers.sorted()
