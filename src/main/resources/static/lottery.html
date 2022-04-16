@@ -7,15 +7,17 @@
 <body>
 <h1>Kotlin Playground Demo</h1>
 <div class="kotlin-code" data-target-platform="java" theme="darcula" data-output-height="200">
-package io.kraftsman
+    package io.kraftsman
 
-fun main() {
+    fun main() {
     //sampleStart
-    (1..49).shuffled().take(6)
-        .joinToString(",")
-        .let { println(it) }
+        (1..49)
+            .shuffled()
+            .take(6)
+            .joinToString(",")
+            .let { println(it) }
     //sampleEnd
-}
+    }
 </div>
 <script src="https://unpkg.com/kotlin-playground@1" data-version="1.6.20" data-selector=".kotlin-code"></script>
 </body>

@@ -7,7 +7,7 @@ import io.kraftsman.collection.data.Employee
  */
 
 // 建立範例資料
-val chars = listOf('a', 'A', 'b', 'B', 'A', 'a')
+val chars = listOf('A', 'a', 'b', 'B', 'A', 'a')
 var fruits = listOf("apple", "banana", "mango", "berry")
 val employees = listOf(
     Employee(1, "Tom", "Backend"),
