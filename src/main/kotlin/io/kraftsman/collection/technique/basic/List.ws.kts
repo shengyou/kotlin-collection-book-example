@@ -1,4 +1,4 @@
-package io.kraftsman.collection.concept
+package io.kraftsman.collection.technique.basic
 
 val listOfNumbers = listOf(1, 3, 5, 7, 9)
 val mutableListOfNumbers = mutableListOf(2, 4, 6, 8, 10)

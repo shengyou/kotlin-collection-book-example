@@ -1,4 +1,4 @@
-package io.kraftsman.collection.concept
+package io.kraftsman.collection.technique.basic
 
 val numbers = arrayOf<Int>(1, 2, 3, 4, 5)
 

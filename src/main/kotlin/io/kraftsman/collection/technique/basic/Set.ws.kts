@@ -1,4 +1,4 @@
-package io.kraftsman.collection.concept
+package io.kraftsman.collection.technique.basic
 
 val setOfNames = setOf("Jim", "Sue", "Sue", "Nick", "Nick") // 只存放不重複的 Jim, Sue, Nick
 val mutableSetOfNames = mutableSetOf("Jim", "Sue", "Sue", "Nick", "Nick") // 只存放不重複的 Jim, Sue, Nick

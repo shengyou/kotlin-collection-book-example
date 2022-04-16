@@ -1,4 +1,4 @@
-package io.kraftsman.collection.concept
+package io.kraftsman.collection.technique.basic
 
 val mapOfFruit = mapOf(
     "Apple" to 7,
