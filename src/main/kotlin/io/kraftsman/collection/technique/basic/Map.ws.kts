@@ -24,12 +24,14 @@ val mutableMapOfFruitByPair = mutableMapOf(
 
 val mapByBuilder = buildMap {
     put("Banana", 5)
-    putAll(mapOf(
-        "Apple" to 7,
-        "Banana" to 5,
-        "Orange" to 7,
-    ))
-    put("Apple", 7)
+    putAll(
+        mapOf(
+            "Apple" to 7,
+            "Banana" to 5,
+            "Orange" to 7,
+        )
+    )
+    put("Apple", 100)
 }
 
 val emptyMap = mapOf<String, Int>()
