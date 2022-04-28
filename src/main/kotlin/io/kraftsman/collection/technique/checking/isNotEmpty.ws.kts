@@ -1,7 +1,7 @@
 package io.kraftsman.collection.technique.checking
 
 /**
- * isNotEmpty() - 檢查 Collection 是否不是空的？
+ * isNotEmpty() - 反向檢查集合是否有元素
  */
 
 // 建立範例資料

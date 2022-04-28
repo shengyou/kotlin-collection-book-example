@@ -1,37 +1,38 @@
 package io.kraftsman.collection.technique.checking
 
 /**
- * isEmpty() - 檢查 Collection 是否為空？
+ * isEmpty() - 偵測集合是否有元素
  */
 
 // 建立範例資料
 val numbers = mutableListOf(1, 2, 3, 4, 5)
 
-// 使用長度做判斷
+// 使用 size 做判斷
 if (numbers.size == 0) {
-    println("Collection 是空的")
+    println("集合不含任何元素")
 } else {
-    println("Collection 不是空的")
+    println("集合裡有元素")
 }
 
+// 使用 count() 做判斷
 if (numbers.count() == 0) {
-    println("Collection 是空的")
+    println("集合不含任何元素")
 } else {
-    println("Collection 不是空的")
+    println("集合裡有元素")
 }
 
 // 使用 isEmpty() 做判斷
 if (numbers.isEmpty()) {
-    println("Collection 是空的")
+    println("集合不含任何元素")
 } else {
-    println("Collection 不是空的")
+    println("集合裡有元素")
 }
 
-// 試著清空 Collection
+// 試著清空集合
 numbers.isEmpty()
 numbers.clear()
 numbers.isEmpty()
 
-// 測試空的 Collection
+// 測試以 empty 函式建立的集合
 val emptyNumbers = emptyList<Int>()
 emptyNumbers.isEmpty()

@@ -1,7 +1,7 @@
 package io.kraftsman.collection.technique.checking
 
 /**
- * containsValue() - 檢查 Map 裡的是否包含特定 Value？
+ * containsValue() - 檢查 Map 是否包含特定 Value
  */
 
 // 建立範例資料

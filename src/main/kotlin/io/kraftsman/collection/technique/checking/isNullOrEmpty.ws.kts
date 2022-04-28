@@ -1,7 +1,7 @@
 package io.kraftsman.collection.technique.checking
 
 /**
- * 檢查 Collection 是否是 Null 或是空的 Collection？
+ * isNullOrEmpty() - 檢查集合是否為 Null 或是不包含元素
  */
 
 // 建立範例資料
