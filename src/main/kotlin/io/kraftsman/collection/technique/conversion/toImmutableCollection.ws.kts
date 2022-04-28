@@ -7,15 +7,15 @@ package io.kraftsman.collection.technique.conversion
  */
 
 // 建立範例資料
-val numberSet = setOf(1, 2, 3, 4, 5)
-val numberList = listOf(1, 1, 2, 3, 3, 4, 5)
-val myPairList = listOf(
-    Pair(1, "one"),
-    Pair(2, "two"),
-    Pair(3, "three"),
+val setOfNumbers = setOf(1, 2, 3, 4, 5)
+val listOfNumbers = listOf(1, 1, 2, 3, 3, 4, 5)
+val listOfPairs = listOf(
+    Pair(1, "Grape"),
+    Pair(2, "Papaya"),
+    Pair(3, "Pineapple")
 )
 
 // 測試 APIs
-numberSet.toList()
-numberList.toSet()
-myPairList.toMap()
+setOfNumbers.toList()
+listOfNumbers.toSet()
+listOfPairs.toMap()

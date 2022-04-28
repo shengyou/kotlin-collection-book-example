@@ -1,18 +1,19 @@
 package io.kraftsman.collection.technique.conversion
 
 /**
- * toPair() - 將 Map Entry 轉成 Pair
+ * toPair() - 將 Map.Entry 轉成 Pair
  */
 
 // 建立範例資料
-val numberMap = mapOf(
-    "one" to 1,
-    "two" to 2,
-    "three" to 3,
+val mapOfWarehouse = mapOf(
+    "Apple" to 10,
+    "Banana" to 20,
+    "Orange" to 5,
 )
 
 // 測試 APIs
-numberMap.entries.map {
+mapOfWarehouse.entries.map {
     it.toPair()
 }
-numberMap.toList()
+
+mapOfWarehouse.toList()

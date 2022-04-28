@@ -8,23 +8,27 @@ package io.kraftsman.collection.technique.conversion
  */
 
 // 建立範例資料
-val numberList = listOf(1, 2, 3, 4, 5)
-val numberSet = setOf(1, 2, 3, 4, 5)
-val numberMap = mapOf(
-    "one" to 1,
-    "two" to 2,
-    "three" to 3,
+val listOfNumbers = listOf(1, 2, 3, 4, 5)
+val setOfNumbers = setOf(1, 2, 3, 4, 5)
+val mapOfWarehouse = mapOf(
+    "Apple" to 10,
+    "Banana" to 20,
+    "Orange" to 5,
 )
 
 // 測試 APIs
-val mutableList = numberList.toMutableList()
+val mutableList = listOfNumbers.toMutableList()
 mutableList.addAll(listOf(6, 7, 8, 9, 10))
+println(mutableList)
 
-val mutableSet = numberSet.toMutableSet()
+val mutableSet = setOfNumbers.toMutableSet()
 mutableSet.addAll(setOf(6, 7, 8, 9, 10))
+println(mutableSet)
 
-val mutableMap = numberMap.toMutableMap()
-mutableMap.put("four", 4)
+val mutableMap = mapOfWarehouse.toMutableMap()
+mutableMap.put("Papaya", 4)
+println(mutableMap)
 
 val hashSet = mutableList.toHashSet()
 hashSet.add(6)
+println(hashSet)
