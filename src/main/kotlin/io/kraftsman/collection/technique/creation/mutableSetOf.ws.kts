@@ -1,7 +1,7 @@
 package io.kraftsman.collection.technique.creation
 
 /**
- * mutableSetOf() - 建立 MutableSet
+ * mutableSetOf() - 建立可變Set
  */
 
 // 建立範例資料

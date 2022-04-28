@@ -1,7 +1,7 @@
 package io.kraftsman.collection.technique.creation
 
 /**
- * copyOfRange() - 從來源 Array 複製指定區間的元素成新 Array
+ * copyOfRange() - 從來源 Array 複製指定區間的元素後建立新的 Array
  */
 
 // 建立範例資料

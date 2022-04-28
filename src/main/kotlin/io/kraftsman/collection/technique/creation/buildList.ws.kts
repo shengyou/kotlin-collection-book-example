@@ -1,7 +1,7 @@
 package io.kraftsman.collection.technique.creation
 
 /**
- * buildList() - 依 λ 建立 List
+ * buildList() - 以 Builder 函式建立 List
  */
 
 // 建立範例資料

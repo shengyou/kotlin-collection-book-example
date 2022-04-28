@@ -1,7 +1,7 @@
 package io.kraftsman.collection.technique.creation
 
 /**
- * mutableMapOf() - 建立 Mutable Map
+ * mutableMapOf() - 建立可變 Map
  */
 
 // 建立範例資料

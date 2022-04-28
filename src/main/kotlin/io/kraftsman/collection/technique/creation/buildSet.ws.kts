@@ -1,7 +1,7 @@
 package io.kraftsman.collection.technique.creation
 
 /**
- * buildSet() - 依 λ 建立 Set
+ * buildSet() - 以 Builder 函式建立 Set
  */
 
 // 建立範例資料

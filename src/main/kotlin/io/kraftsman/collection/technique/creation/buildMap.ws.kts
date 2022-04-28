@@ -1,7 +1,7 @@
 package io.kraftsman.collection.technique.creation
 
 /**
- * buildMap() - 依 λ 建立 Map
+ * buildMap() - 以 Builder 函式建立 Map
  */
 
 // 建立範例資料

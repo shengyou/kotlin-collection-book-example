@@ -1,7 +1,7 @@
 package io.kraftsman.collection.technique.creation
 
 /**
- * mutableListOf() - 建立 Mutable List
+ * mutableListOf() - 建立可變 List
  */
 
 // 建立範例資料
