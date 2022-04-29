@@ -17,4 +17,10 @@ val raffle = listOf(
 
 // 測試 APIs
 raffle.shuffled()
-.random().name
+
+raffle.shuffled()
+    .first()
+    .name
+
+raffle.shuffled()
+    .take(3)

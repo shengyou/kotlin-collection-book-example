@@ -1,11 +1,12 @@
 package io.kraftsman.collection.technique.ordering
 
 /**
- * sortedByDescending() - 以傳入的 λ 反向排序
+ * sortedByDescending() - 依傳入的 λ 反向排序
  */
 
 // 建立範例資料
-val string = listOf("one", "two", "three", "four", "five")
+val fruits = listOf("Grape", "Muskmelon", "Kumquat", "Pear")
 
 // 測試 APIs
-string.sortedByDescending { it.last() }
+fruits.sortedByDescending { it.length }
+fruits.sortedByDescending { it.last() }

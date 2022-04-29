@@ -1,11 +1,11 @@
 package io.kraftsman.collection.technique.ordering
 
 /**
- * sortedBy() - 以傳入的 λ 正向排序
+ * sortedBy() - 依傳入的 λ 正向排序
  */
 
 // 建立範例資料
-val string = listOf("one", "two", "three", "four", "five")
+val fruits = listOf("Grape", "Muskmelon", "Kumquat", "Pear")
 
 // 測試 APIs
-string.sortedBy { it.length }
+fruits.sortedBy { it.length }

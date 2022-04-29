@@ -1,4 +1,4 @@
-package io.kraftsman.collection.technique.ordering
+package io.kraftsman.collection.concept
 
 import io.kraftsman.collection.data.Version
 
