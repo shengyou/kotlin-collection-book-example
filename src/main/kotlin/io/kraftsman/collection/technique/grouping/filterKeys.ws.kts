@@ -1,7 +1,7 @@
 package io.kraftsman.collection.technique.grouping
 
 /**
- * filterKeys() - 依照件過濾 Map 的 Key
+ * filterKeys() - 依條件過濾 Map 的 Key
  */
 
 // 建立範例資料

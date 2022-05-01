@@ -1,14 +1,24 @@
 package io.kraftsman.collection.technique.grouping
 
 /**
- * filterNotNullTo() - 過濾出非 Null 值後寫入指定 Collection
+ * filterNotNullTo() - 過濾出非 Null 值後附加至指定集合
  */
 
 // 建立範例資料
-var list = listOf("A", null, "B", null, "C")
-val mutableList = mutableListOf<String>()
+val fruits = listOf(
+    "Grape",
+    null,
+    "Muskmelon",
+    null,
+    "Kumquat",
+    "Pear"
+)
+val shoppingList = mutableListOf("Apple")
+val emptyList = mutableListOf<String>()
 
 // 測試 APIs
-list.filterNotNullTo(mutableList)
+fruits.filterNotNullTo(shoppingList)
 
-mutableList.add("D")
+fruits.filterNotNullTo(emptyList)
+
+val returnList = fruits.filterNotNullTo(mutableListOf())

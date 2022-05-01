@@ -4,7 +4,7 @@ import io.kraftsman.collection.data.Student
 import io.kraftsman.collection.data.Teacher
 
 /**
- * filterIsInstance<T>() - 依照實例類別進行過濾
+ * filterIsInstance<T>() - 依實例類別過濾
  */
 
 // 建立範例資料

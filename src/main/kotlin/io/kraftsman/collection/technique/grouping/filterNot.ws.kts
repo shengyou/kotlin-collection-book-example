@@ -5,7 +5,7 @@ package io.kraftsman.collection.technique.grouping
  */
 
 // 建立範例資料
-val numbers = listOf("one", "two", "three", "four")
+val fruits = listOf("Grape", "Papaya", "Pineapple", "Pear")
 
 // 測試 APIs
-numbers.filterNot { it.length > 3 }
+fruits.filterNot { it.startsWith('P') }

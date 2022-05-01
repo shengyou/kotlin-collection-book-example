@@ -3,7 +3,7 @@ package io.kraftsman.collection.technique.grouping
 import io.kraftsman.collection.data.Employee
 
 /**
- * distinctBy() - 依照條件過濾重覆資料
+ * distinctBy() - 依條件過濾重覆元素
  */
 
 // 建立範例資料
@@ -19,5 +19,5 @@ val employees = listOf(
 
 // 測試 APIs
 chars.distinctBy { it.uppercaseChar() }
-fruits.distinctBy { it[0] }
+fruits.distinctBy { it.first() }
 employees.distinctBy { it.department }

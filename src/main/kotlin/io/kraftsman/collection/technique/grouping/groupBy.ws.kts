@@ -7,7 +7,14 @@ import io.kraftsman.collection.data.Employee
  */
 
 // 建立範例資料
-val numberStrings = listOf("oNe", "tWo", "tHRee", "foUR", "fIvE")
+val fruits = listOf(
+    "cOcoNut",
+    "PaPaYa",
+    "CRanBerry",
+    "pINEApple",
+    "BaNaNa",
+    "PeaR"
+)
 val employees = listOf(
     Employee(1, "Tom", "Backend"),
     Employee(2, "John", "IT"),
@@ -17,10 +24,13 @@ val employees = listOf(
 )
 
 // 測試 APIs
-numberStrings.groupBy { it.first() }
-numberStrings.groupBy(
+fruits.groupBy { it.first() }
+fruits.groupBy(
     { it.first().uppercaseChar() },
     { it.lowercase().replaceFirstChar(Char::uppercaseChar) }
 )
 
-employees.groupBy( { it.department }, {it.name} )
+employees.groupBy(
+    { it.department },
+    {it.name}
+)

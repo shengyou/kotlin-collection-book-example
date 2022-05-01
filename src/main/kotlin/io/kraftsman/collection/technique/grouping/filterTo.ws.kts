@@ -1,16 +1,25 @@
 package io.kraftsman.collection.technique.grouping
 
 /**
- * filterTo() - 依條件過濾後寫入指定 Collection
+ * filterTo() - 依條件過濾後附加至指定集合
  */
 
 // 建立範例資料
-val numbers = listOf("one", "two", "three", "four")
-val mutableList = mutableListOf<String>()
+val fruits = listOf("Grape", "Papaya", "Pineapple", "Pear")
+val shoppingList = mutableListOf("Apple")
+val emptyList = mutableListOf<String>()
 
 // 測試 APIs
-numbers.filterTo(mutableList) {
-    it.length > 3
+fruits.filterTo(shoppingList) {
+    it.length > 5
 }
 
-mutableList.add("five")
+shoppingList.add("Banana")
+
+fruits.filterTo(emptyList) {
+    it.length > 5
+}
+
+val returnList = fruits.filterTo(mutableListOf()) {
+    it.length > 5
+}

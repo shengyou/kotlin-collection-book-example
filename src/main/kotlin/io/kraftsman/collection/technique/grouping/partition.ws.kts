@@ -4,7 +4,7 @@ import io.kraftsman.collection.data.Student
 import io.kraftsman.collection.data.Teacher
 
 /**
- * partition() - 依照條件分成通過與不通過的兩群
+ * partition() - 依條件分成通過與不通過的兩群
  */
 
 // 建立範例資料
@@ -21,5 +21,8 @@ val people = listOf(
 )
 
 // 測試 APIs
+staff.partition { it.level <= 3 }
+
 val (junior, senior) = staff.partition { it.level <= 3 }
-val (teachers, students) = people.partition { it is Teacher }
+
+//val (teachers, students) = people.partition { it is Teacher }

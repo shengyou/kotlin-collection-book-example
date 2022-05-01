@@ -1,7 +1,7 @@
 package io.kraftsman.collection.technique.grouping
 
 /**
- * filterValues() - 依照件過濾 Map 的 Value
+ * filterValues() - 依條件過濾 Map 的 Value
  */
 
 // 建立範例資料
