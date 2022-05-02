@@ -1,7 +1,7 @@
 package io.kraftsman.collection.technique.retrieving.element
 
 /**
- * findLast() - 依邏輯搜尋最後一個符合條件元素回傳，若找不到就回傳 NULL
+ * findLast() - 依傳入 λ 搜尋最後一個符合條件元素回傳，若找不到就回傳 Null
  */
 
 // 建立範例資料

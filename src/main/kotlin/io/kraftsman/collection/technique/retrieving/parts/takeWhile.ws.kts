@@ -1,13 +1,17 @@
 package io.kraftsman.collection.technique.retrieving.parts
 
 /**
- * takeWhile() - 依 λ 取值直到遇到第一個 False
+ * takeWhile() - 依 λ 條件取出集合元素直到無法通過條件時停下
  */
 
 // 建立範例資料
-val numbers = listOf("one", "two", "three", "four", "five", "six")
+val fruits = listOf("Grape", "Muskmelon", "Pear", "Kumquat")
 
 // 測試 APIs
-numbers.takeWhile {
-    it.startsWith('o') or it.startsWith('t')
+fruits.takeWhile {
+    it.length > 4
+}
+
+fruits.takeWhile {
+    it.startsWith('A')
 }

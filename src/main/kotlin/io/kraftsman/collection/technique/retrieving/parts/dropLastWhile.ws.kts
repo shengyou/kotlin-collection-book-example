@@ -1,13 +1,17 @@
 package io.kraftsman.collection.technique.retrieving.parts
 
 /**
- * dropLastWhile() - 依 λ 從後面丟棄直到遇到第一個 False
+ * dropLastWhile() - 依 λ 條件反向丟棄集合元素直到無法通過條件時停下
  */
 
 // 建立範例資料
-val numbers = listOf("one", "two", "three", "four", "five", "six")
+val fruits = listOf("Grape", "Muskmelon", "Pear", "Kumquat")
 
 // 測試 APIs
-numbers.dropLastWhile {
-    it.startsWith('s') or it.startsWith('f')
+fruits.dropLastWhile {
+    it.length > 4
+}
+
+fruits.dropLastWhile {
+    it.contains('a') or it.contains('e')
 }

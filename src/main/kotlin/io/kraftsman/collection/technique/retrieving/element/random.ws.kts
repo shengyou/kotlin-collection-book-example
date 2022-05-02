@@ -3,7 +3,7 @@ package io.kraftsman.collection.technique.retrieving.element
 import kotlin.random.Random
 
 /**
- * random() - 隨機從 Collection 取出一個元素，若是空 Collection 則拋出 NoSuchElementException
+ * random() - 從集合隨機取出一個元素，若是 Empty 集合則拋出 NoSuchElementException
  */
 
 // 建立範例資料

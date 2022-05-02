@@ -3,7 +3,7 @@ package io.kraftsman.collection.technique.retrieving.element
 import io.kraftsman.collection.data.Address
 
 /**
- * getOrPut() - 依 Key 取出 Map 裡的元素，若不存在則依邏輯寫入
+ * getOrPut() - 依 Key 取出 MutableMap 裡的元素，若 Key 不存在則依邏輯寫入
  */
 
 // 建立範例資料

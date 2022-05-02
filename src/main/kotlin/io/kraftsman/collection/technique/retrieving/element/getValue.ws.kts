@@ -17,3 +17,4 @@ val orders = mapOf(
 
 // 測試 APIs
 orders.getValue("Sue")
+orders["Sue"]

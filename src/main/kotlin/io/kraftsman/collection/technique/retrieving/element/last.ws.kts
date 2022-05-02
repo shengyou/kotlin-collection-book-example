@@ -1,7 +1,7 @@
 package io.kraftsman.collection.technique.retrieving.element
 
 /**
- * last() - 取出 Collection 裡的最後一個元素，若是空 Collection 則拋出 NoSuchElementException
+ * last() - 取出集合裡最後一個元素，若是 Empty 集合則拋出 NoSuchElementException
  */
 
 // 建立範例資料
@@ -16,7 +16,7 @@ numbers[numbers.size - 1]
 numbers.last { it < 6 }
 
 emptyList.last()
-nothingInList.last()
-
 emptyList.last { it < 6 }
+
+nothingInList.last()
 nothingInList.last { it < 6 }

@@ -1,7 +1,7 @@
 package io.kraftsman.collection.technique.retrieving.element
 
 /**
- * get() - 取出指定位置的元素，若 Index 不存在可指定回傳預設值的邏輯
+ * get() - 依索引取出集合內元素
  */
 
 // 建立範例資料

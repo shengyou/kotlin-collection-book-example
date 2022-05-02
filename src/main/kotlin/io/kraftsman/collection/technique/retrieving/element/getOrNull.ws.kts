@@ -1,7 +1,7 @@
 package io.kraftsman.collection.technique.retrieving.element
 
 /**
- * getOrNull() - 取出指定位置的元素，若 Index 不存在則回傳 Null
+ * getOrNull() - 依索引取出集合內元素，若索引超出範圍則回傳 Null
  */
 
 // 建立範例資料

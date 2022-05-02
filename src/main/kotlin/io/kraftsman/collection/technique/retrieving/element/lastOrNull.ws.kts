@@ -1,7 +1,7 @@
 package io.kraftsman.collection.technique.retrieving.element
 
 /**
- * lastOrNull() - 取出 Collection 裡的最後一個元素，若是空 Collection 則回傳 Null
+ * lastOrNull() - 取出集合裡最後一個元素，若是 Empty 集合則回傳 Null
  */
 
 // 建立範例資料

@@ -3,7 +3,7 @@ package io.kraftsman.collection.technique.retrieving.element
 import io.kraftsman.collection.data.Employee
 
 /**
- * firstNotNullOf() - 取出經過 λ 轉換後第一個不是 Null 的元素，若轉換後都是 Null 則拋 NoSuchElementException
+ * firstNotNullOf() - 取出經過 λ 轉換後第一個不是 Null 的元素的值，若轉換後是 Empty 集合則拋 NoSuchElementException
  */
 
 // 建立範例資料
@@ -18,6 +18,8 @@ val emptyList = emptyList<Employee>()
 val nothingInList = listOf<Employee>()
 
 // 測試 APIs
+employees.first { it.skills != null }
+    .skills
 employees.firstOrNull { it.skills != null }
     ?.skills
 
@@ -25,6 +27,5 @@ employees.mapNotNull { it.skills }
     .first()
 
 employees.firstNotNullOf { it.skills }
-
 emptyList.firstNotNullOf { it.skills }
 nothingInList.firstNotNullOf { it.skills }

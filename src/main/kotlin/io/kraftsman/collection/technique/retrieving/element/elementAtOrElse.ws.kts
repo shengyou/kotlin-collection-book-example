@@ -5,8 +5,10 @@ package io.kraftsman.collection.technique.retrieving.element
  */
 
 // 建立範例資料
-val listOfNames = setOf("Tom", "John", "Allen", "Sean")
+val setOfNames = setOf("Tom", "John", "Allen", "Sean")
 
 // 測試 APIs
-listOfNames.elementAtOrElse(1) { "Unknown Person" }
-listOfNames.elementAtOrElse(100) { "Unknown Person" }
+setOfNames.elementAtOrElse(1) { "Unknown Person" }
+setOfNames.elementAtOrElse(100) {
+    if (it > 50) "Out of range" else "Unknown Person"
+}

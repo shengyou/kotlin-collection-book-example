@@ -1,7 +1,7 @@
 package io.kraftsman.collection.technique.retrieving.element
 
 /**
- * singleOrNull() - 取出 Collection 裡的唯一元素，若是空 Collection 或多於一個則回傳 null
+ * singleOrNull() - 取出集合裡的唯一元素，若是 Empty 集合或集合超過一個元素則回傳 Null
  */
 
 // 建立範例資料

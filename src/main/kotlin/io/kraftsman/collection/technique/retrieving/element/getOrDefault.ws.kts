@@ -3,7 +3,7 @@ package io.kraftsman.collection.technique.retrieving.element
 import io.kraftsman.collection.data.Address
 
 /**
- * getOrDefault() - 依 Key 取出 Map 元素，若不存在則回傳預設值
+ * getOrDefault() - 依 Key 取出 Map 元素，若超出範圍則回傳預設值
  */
 
 // 建立範例資料
