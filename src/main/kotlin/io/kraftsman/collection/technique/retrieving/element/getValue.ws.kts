@@ -9,7 +9,7 @@ import io.kraftsman.collection.data.Address
 // 建立範例資料
 val orders = mapOf(
     "Sue" to Address("Taipei", "116"),
-    "Mary" to Address("Keelong", "202"),
+    "Mary" to Address("Keelung", "202"),
     "Peter" to Address("Taoyuan", "326"),
     "Amos" to Address("Taichung", "423"),
     "Craig" to Address("Tainan", "703"),
