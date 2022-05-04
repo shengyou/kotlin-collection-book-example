@@ -1,7 +1,7 @@
 package io.kraftsman.collection.technique.transformation
 
 /**
- * flatten() - 把 Collection 的階層打平
+ * flatten() - 打平集合階層
  */
 
 // 建立範例資料

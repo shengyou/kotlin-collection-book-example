@@ -3,7 +3,7 @@ package io.kraftsman.collection.technique.transformation
 import io.kraftsman.collection.data.Employee
 
 /**
- * flatMapTo() - 把元素轉換後打平階層後寫入指定 Collection
+ * flatMapTo() - 把集合元素轉換並打平階層後，寫入指定集合
  */
 
 // 建立範例資料

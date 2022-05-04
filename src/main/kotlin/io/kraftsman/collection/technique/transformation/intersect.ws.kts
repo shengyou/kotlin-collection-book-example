@@ -1,7 +1,7 @@
 package io.kraftsman.collection.technique.transformation
 
 /**
- * intersect() - 兩個 Collection 找交集
+ * intersect() - 在兩個集合間找交集
  */
 
 // 建立範例資料

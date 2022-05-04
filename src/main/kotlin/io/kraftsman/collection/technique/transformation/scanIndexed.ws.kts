@@ -1,11 +1,13 @@
 package io.kraftsman.collection.technique.transformation
 
 /**
- * scanIndexed() - 依初始值及 λ 邏輯累進（有 Index）
+ * scanIndexed() - 依初始值及 λ 邏輯累進時可取得索引
  */
 
 // 建立範例資料
-val strings = listOf("a", "b", "c", "d")
+val letters = listOf("a", "b", "c", "d")
 
 // 測試 APIs
-strings.scanIndexed("s") { index, accumulator, string -> accumulator + string + index }
+letters.scanIndexed("→") { index, accumulator, letter ->
+    "$accumulator $index: $letter"
+}

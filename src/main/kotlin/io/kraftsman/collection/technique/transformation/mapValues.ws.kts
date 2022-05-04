@@ -14,6 +14,8 @@ val customers = mapOf(
 )
 
 // 測試 APIs
+customers.mapValues { it.value.name }
+
 customers.mapValues { (_, customer) ->
     customer.name
 }

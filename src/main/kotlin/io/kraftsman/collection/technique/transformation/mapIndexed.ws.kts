@@ -3,7 +3,7 @@ package io.kraftsman.collection.technique.transformation
 import io.kraftsman.collection.data.Customer
 
 /**
- * mapIndexed() - 將 Map 轉換為其他元素（有 Index）
+ * mapIndexed() - 將集合轉換為其他元素時可取得索引
  */
 
 // 建立範例資料

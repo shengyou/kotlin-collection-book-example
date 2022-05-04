@@ -5,7 +5,9 @@ package io.kraftsman.collection.technique.transformation
  */
 
 // 建立範例資料
-val strings = listOf("a", "b", "c", "d")
+val letters = listOf("a", "b", "c", "d")
 
 // 測試 APIs
-strings.scan("s") { accumulator, string -> accumulator + string }
+letters.scan("→") { accumulator, letter ->
+    accumulator + letter
+}

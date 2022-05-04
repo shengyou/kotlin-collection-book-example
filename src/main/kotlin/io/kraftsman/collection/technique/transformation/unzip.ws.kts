@@ -1,16 +1,15 @@
 package io.kraftsman.collection.technique.transformation
 
 /**
- * unzip() - 把 Collection 裡的 Pair 拆成 Key 跟 Value 兩個獨立的 List
+ * unzip() - 把集合裡的配對以 Key 及 Value 拆成獨立集合
  */
 
 // 建立範例資料
-val numberPairs = listOf(
-    "one" to 1,
-    "two" to 2,
-    "three" to 3,
-    "four" to 4,
+val warehouse = listOf(
+    "Apple" to 10,
+    "Banana" to 20,
+    "Orange" to 5,
 )
 
 // 測試 APIs
-val (key, value) = numberPairs.unzip()
+val (fruits, amounts) = warehouse.unzip()

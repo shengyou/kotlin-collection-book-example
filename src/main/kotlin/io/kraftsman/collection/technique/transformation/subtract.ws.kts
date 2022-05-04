@@ -1,7 +1,7 @@
 package io.kraftsman.collection.technique.transformation
 
 /**
- * subtract() - 用傳入的 Collection 減去原本的 Collection
+ * subtract() - 用傳入的集合減去來源集合
  */
 
 // 建立範例資料

@@ -3,7 +3,7 @@ package io.kraftsman.collection.technique.transformation
 import io.kraftsman.collection.data.Customer
 
 /**
- * mapNotNullTo() - 將 Map 轉換成其他元素並去除 Null 的結果後寫入指定 Collection
+ * mapNotNullTo() - 將集合轉換成其他元素並在去除 Null 的結果後，寫入指定集合
  */
 
 // 建立範例資料

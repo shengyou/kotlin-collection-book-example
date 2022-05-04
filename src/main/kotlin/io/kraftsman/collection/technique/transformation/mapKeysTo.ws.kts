@@ -3,7 +3,7 @@ package io.kraftsman.collection.technique.transformation
 import io.kraftsman.collection.data.Customer
 
 /**
- * mapKeysTo() - 重新對映 Map Key 後寫入指定 Collection
+ * mapKeysTo() - 重新對映 Map Key 後寫入指定集合
  */
 
 // 建立範例資料

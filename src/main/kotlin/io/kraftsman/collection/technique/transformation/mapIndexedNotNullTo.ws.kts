@@ -3,7 +3,7 @@ package io.kraftsman.collection.technique.transformation
 import io.kraftsman.collection.data.Customer
 
 /**
- * mapIndexedNotNullTo() - 將 Map 轉換成其他元素並去除 Null 的結果（有 Index）後寫入指定 Collection
+ * mapIndexedNotNullTo() - 將集合轉換成其他元素時可取得索引，並在去除 Null 的結果後寫入指定集合
  */
 
 // 建立範例資料
@@ -18,7 +18,7 @@ val customerNames = mutableListOf<String>()
 
 // 測試 APIs
 customers.mapIndexedNotNullTo(customerNames) { index, customer ->
-    if (customer.name.length > 3) {
+    if (customer.name.length > 4) {
         "$index: ${customer.name}"
     } else {
         null
