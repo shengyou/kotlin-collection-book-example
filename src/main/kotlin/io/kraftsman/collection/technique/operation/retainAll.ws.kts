@@ -1,13 +1,16 @@
 package io.kraftsman.collection.technique.operation
 
 /**
- * retainAll() - 在 Collection 裡保留指定的元素
+ * retainAll() - 保留集合裡的元素
  */
 
 // 建立範例資料
-val cart = mutableListOf("Tea", "Eggs", "Sugar")
-val names = mutableListOf("Eli", "Mordoc", "Sophie")
+val numbers = mutableListOf(1, 3, 5, 7, 9)
+val names = mutableListOf("John", "Tom", "Mary")
 
 // 測試 APIs
-cart.retainAll(listOf("Tea", "Sugar"))
-names.retainAll { it.contains('l') }
+numbers.retainAll(listOf(2, 5, 7))
+println(numbers)
+
+names.retainAll { it.contains('o') }
+println(names)

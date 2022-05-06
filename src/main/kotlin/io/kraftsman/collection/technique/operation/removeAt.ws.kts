@@ -1,11 +1,12 @@
 package io.kraftsman.collection.technique.operation
 
 /**
- * removeAt() - 刪除 Collection 裡指定 Index 位置的元素
+ * removeAt() - 刪除集合裡指定索引位置的元素
  */
 
 // 建立範例資料
-val numbers = mutableListOf(1, 3, 5, 6, 7)
+val numbers = mutableListOf(1, 3, 5, 7, 9)
 
 // 測試 APIs
-numbers.removeAt(0)
+numbers.removeAt(1)
+println(numbers)

@@ -1,11 +1,12 @@
 package io.kraftsman.collection.technique.operation
 
 /**
- * removeLast() - 移除最後一個元素，若是空 Collection 則拋 NoSuchElementException
+ * removeLast() - 移除集合裡最後一個元素，若是 Empty 集合則拋 NoSuchElementException
  */
 
 // 建立範例資料
-val cart = mutableListOf("Tea", "Eggs", "Sugar")
+val numbers = mutableListOf(1, 3, 5, 7, 9)
 
 // 測試 APIs
-cart.removeLast()
+numbers.removeLast()
+println(numbers)

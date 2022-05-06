@@ -5,7 +5,8 @@ package io.kraftsman.collection.technique.operation
  */
 
 // 建立範例資料
-val strings = mutableListOf("one", "two", "three", "four", "five")
+val fruits = mutableListOf("Grape", "Muskmelon", "Kumquat", "Pear")
 
 // 測試 APIs
-strings.sortByDescending { it.length }
+fruits.sortByDescending { it.length }
+println(fruits)

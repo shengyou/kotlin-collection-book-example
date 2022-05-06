@@ -1,7 +1,7 @@
 package io.kraftsman.collection.technique.operation
 
 /**
- * put() - 將指定元素放入 Map 裡的指定位置
+ * put() - 將元素新增至 Map
  */
 
 // 建立範例資料
@@ -12,4 +12,11 @@ val names = mutableMapOf(
 )
 
 // 測試 APIs
-names.put(4, "Simon")
+names.put(3, "Simon")
+println(names)
+
+names.put(4, "Craig")
+println(names)
+
+names[5] = "Rita"
+println(names)

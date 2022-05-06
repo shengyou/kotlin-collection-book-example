@@ -8,6 +8,11 @@ package io.kraftsman.collection.technique.operation
 val names = mutableListOf("John", "Tom", "Mary")
 
 // 測試 APIs
-names -= "Tom"
 names.minusAssign("Tom")
-names.remove("Tom")
+println(names)
+
+names -= "John"
+println(names)
+
+names.remove("Mary")
+println(names)

@@ -1,7 +1,7 @@
 package io.kraftsman.collection.technique.operation
 
 /**
- * putAll() - 將數個元素放入 Map 裡的指定位置
+ * putAll() - 新增多個元素進 Map
  */
 
 // 建立範例資料
@@ -12,7 +12,10 @@ val names = mutableMapOf(
 )
 
 // 測試 APIs
-names.putAll(mapOf(
-    4 to "Simon",
-    5 to "Bruce",
-))
+names.putAll(
+    mapOf(
+        3 to "Simon",
+        4 to "Bruce",
+    )
+)
+println(names)
