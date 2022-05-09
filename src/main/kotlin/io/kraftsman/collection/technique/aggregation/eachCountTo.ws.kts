@@ -1,12 +1,23 @@
 package io.kraftsman.collection.technique.aggregation
 
 /**
- * eachCountTo() - 計算 Grouping 後每一組子 Collection 裡的數量並寫入指定 Collection
+ * eachCountTo() - 計算分群後每一組子集合裡的數量並附加至指定集合
  */
 
 // 建立範例資料
-val numberStrings = listOf("one", "two", "three", "four", "five", "six")
-val mutableMap = mutableMapOf<Int, Int>()
+val fruits = listOf(
+    "Cherry",
+    "Blueberry",
+    "Citrus",
+    "Apple",
+    "Apricot",
+    "Banana",
+    "Coconut"
+)
+val statistics = mutableMapOf(
+    'D' to 0
+)
 
 // 測試 APIs
-numberStrings.groupingBy { it.length }.eachCountTo(mutableMap)
+fruits.groupingBy { it.first() }
+    .eachCountTo(statistics)

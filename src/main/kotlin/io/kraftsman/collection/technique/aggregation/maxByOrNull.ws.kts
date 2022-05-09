@@ -4,7 +4,7 @@ import io.kraftsman.collection.data.OrderItem
 import io.kraftsman.collection.data.Product
 
 /**
- * maxByOrNull() - 依 λ 找出最大元素，若是空集合回傳 Null
+ * maxByOrNull() - 依 λ 找出最大元素，若是 Empty 集合回傳 Null
  */
 
 // 建立範例資料
@@ -13,10 +13,10 @@ val cart = listOf(
     OrderItem(2, Product("FT-0851", "Banana", 10.0), 8),
     OrderItem(3, Product("FT-0952", "Orange", 60.0), 3),
 )
-val listWithNothing = listOf<OrderItem>()
-val emptyList = emptyList<OrderItem>()
+val emptyListOfOrderItems = emptyList<OrderItem>()
+val listOfNothing = listOf<OrderItem>()
 
 // 測試 APIs
 cart.maxByOrNull { it.amount }
-listWithNothing.maxByOrNull { it.amount }
-emptyList.maxByOrNull { it.amount }
+emptyListOfOrderItems.maxByOrNull { it.amount }
+listOfNothing.maxByOrNull { it.amount }

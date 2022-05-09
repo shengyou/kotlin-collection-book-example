@@ -18,3 +18,6 @@ val cart = listOf(
 cart.sumOf {
     it.amount
 }
+
+cart.map { it.amount }
+    .sum()

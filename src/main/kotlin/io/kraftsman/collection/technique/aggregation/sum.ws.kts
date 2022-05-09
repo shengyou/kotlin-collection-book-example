@@ -1,7 +1,7 @@
 package io.kraftsman.collection.technique.aggregation
 
 /**
- * sum() - 計算總合
+ * sum() - 計算總和
  */
 
 // 建立範例資料

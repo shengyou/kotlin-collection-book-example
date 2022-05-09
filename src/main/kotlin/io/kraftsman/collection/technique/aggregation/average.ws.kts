@@ -1,7 +1,7 @@
 package io.kraftsman.collection.technique.aggregation
 
 /**
- * average() - 計算平均值
+ * average() - 計算集合內元素的平均值
  */
 
 // 建立範例資料

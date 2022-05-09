@@ -1,34 +1,43 @@
 package io.kraftsman.collection.technique.aggregation
 
 /**
- * joinToString() - 將 Collection 裡的元素合併
+ * joinToString() - 將集合元素合併成字串
  */
 
 // 建立範例資料
-val numbers = listOf("one", "two", "three", "four")
-var forEachOutput = ""
+val numberStrings = listOf("one", "two", "three", "four")
+var manualOutput = ""
 
 // 測試 APIs
-numbers.toString()
-numbers.forEachIndexed { index, s ->
-    forEachOutput += if (index == 0) {
+println(numberStrings)
+
+numberStrings.toString()
+
+numberStrings.forEachIndexed { index, s ->
+    manualOutput += if (index == 0) {
         "[$s, "
-    } else if ((index + 1) == numbers.size) {
+    } else if ((index + 1) == numberStrings.size) {
         "$s]"
     } else {
         "$s, "
     }
 }
-numbers.joinToString()
-numbers.joinToString(
+println(manualOutput)
+
+numberStrings.joinToString()
+
+numberStrings.joinToString(
     separator = " | ",
     prefix = "start: ",
     postfix = ": end"
 )
-numbers.joinToString(
+
+numberStrings.joinToString(
+    "",
     limit = 2,
     truncated = "..."
 )
-numbers.joinToString {
+
+numberStrings.joinToString {
     "Element: ${it.uppercase()}"
 }

@@ -4,7 +4,7 @@ import io.kraftsman.collection.data.OrderItem
 import io.kraftsman.collection.data.Product
 
 /**
- * minOfOrNull() - 找出 λ 結果的最小元素，若是空集合回傳 Null
+ * minOfOrNull() - 以 λ 找出具最小數值元素的屬性，若是 Empty 集合則回傳 Null
  */
 
 // 建立範例資料
@@ -13,10 +13,10 @@ val cart = listOf(
     OrderItem(2, Product("FT-0851", "Banana", 10.0), 8),
     OrderItem(3, Product("FT-0952", "Orange", 60.0), 3),
 )
-val listWithNothing = listOf<OrderItem>()
-val emptyList = emptyList<OrderItem>()
+val emptyListOfOrderItem = emptyList<OrderItem>()
+val listOfNothing = listOf<OrderItem>()
 
 // 測試 APIs
-cart.minOfOrNull { it.product.price }
-listWithNothing.minOfOrNull { it.product.price }
-emptyList.minOfOrNull { it.product.price }
+cart.minOfOrNull { it.amount }
+emptyListOfOrderItem.minOfOrNull { it.amount }
+listOfNothing.minOfOrNull { it.amount }

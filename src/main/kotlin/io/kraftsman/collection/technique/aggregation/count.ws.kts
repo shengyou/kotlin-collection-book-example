@@ -3,7 +3,7 @@ package io.kraftsman.collection.technique.aggregation
 import io.kraftsman.collection.data.Student
 
 /**
- * count() - 計算 Collection 裡的數量
+ * count() - 計算集合尺寸
  */
 
 // 建立範例資料
@@ -19,4 +19,5 @@ val students = listOf(
 // 測試 APIs
 students.size
 students.count()
+
 students.count { it.grade > 4 }

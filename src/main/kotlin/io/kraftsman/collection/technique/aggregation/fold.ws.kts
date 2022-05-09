@@ -6,6 +6,13 @@ package io.kraftsman.collection.technique.aggregation
 
 // 建立範例資料
 val numbers = listOf(5, 2, 10, 4)
+val strings = listOf("a", "b", "c", "d", "e")
 
 // 測試 APIs
-numbers.fold(100) { acc, i -> acc + i }
+numbers.fold(100) { accumulator, element ->
+    accumulator + element
+}
+
+strings.fold("x") { accumulator, element ->
+    "$accumulator, $element"
+}

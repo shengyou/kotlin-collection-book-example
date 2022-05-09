@@ -1,11 +1,25 @@
 package io.kraftsman.collection.technique.aggregation
 
 /**
- * eachCount() - 計算 Grouping 後每一組子 Collection 裡的數量
+ * eachCount() - 計算分群後每一組子集合裡的數量
  */
 
 // 建立範例資料
-val numberStrings = listOf("one", "two", "three", "four", "five", "six")
+val fruits = listOf(
+    "Cherry",
+    "Blueberry",
+    "Citrus",
+    "Apple",
+    "Apricot",
+    "Banana",
+    "Coconut"
+)
 
 // 測試 APIs
-numberStrings.groupingBy { it.length }.eachCount()
+fruits.groupingBy { it.first() }
+    .eachCount()
+
+fruits.groupingBy { it.first() }
+    .eachCount()
+    .toList()
+    .sortedByDescending { it.second }

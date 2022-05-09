@@ -8,4 +8,6 @@ package io.kraftsman.collection.technique.aggregation
 val numbers = listOf(5, 2, 10, 4)
 
 // 測試 APIs
-numbers.foldRight(100) { acc, i -> acc - i }
+numbers.foldRight(100) { accumulator, element ->
+    accumulator - element
+}
