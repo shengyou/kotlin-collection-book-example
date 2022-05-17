@@ -1,7 +1,7 @@
 package io.kraftsman.collection.technique.operation
 
 /**
- * sortWith() - 以傳入的 Comparator 排序
+ * sortWith() - 依傳入的 Comparator 排序
  */
 
 // 建立範例資料

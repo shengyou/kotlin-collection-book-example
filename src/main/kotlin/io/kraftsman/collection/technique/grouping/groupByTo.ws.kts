@@ -1,7 +1,7 @@
 package io.kraftsman.collection.technique.grouping
 
 /**
- * groupByTo() - 依條件分群後寫入指定集合
+ * groupByTo() - 依條件分群後附加至指定集合
  */
 
 // 建立範例資料

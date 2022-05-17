@@ -4,7 +4,7 @@ import io.kraftsman.collection.data.OrderItem
 import io.kraftsman.collection.data.Product
 
 /**
- * maxOf() - 以 λ 找出具最大數值元素的屬性，若是 Empty 集合會拋出 NoSuchElementException
+ * maxOf() - 以 λ 找出具最大數值元素的屬性，若是 Empty 集合則拋出 NoSuchElementException
  */
 
 // 建立範例資料

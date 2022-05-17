@@ -3,7 +3,7 @@ package io.kraftsman.collection.technique.transformation
 import io.kraftsman.collection.data.Student
 
 /**
- * associateBy() - 將集合依 λ 選擇的 Key 並與原本元素對應成 Map 後寫入指定集合
+ * associateByTo() - 將集合依 λ 選擇的 Key 並與原本元素對應成 Map 後附加至指定集合
  */
 
 // 建立範例資料

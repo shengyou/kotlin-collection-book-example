@@ -1,7 +1,7 @@
 package io.kraftsman.collection.technique.aggregation
 
 /**
- * aggregateTo() - 將分群後每一組子集合做客製化運算後寫入指定集合
+ * aggregateTo() - 將分群後的每一組子集合做客製化運算後附加至指定集合
  */
 
 // 建立範例資料

@@ -3,7 +3,7 @@ package io.kraftsman.collection.technique.transformation
 import io.kraftsman.collection.data.Student
 
 /**
- * associateTo() - 將集合依 λ 轉換成 Map 後寫入指定集合
+ * associateTo() - 將集合依 λ 轉換成 Map 後附加至指定集合
  */
 
 // 建立範例資料

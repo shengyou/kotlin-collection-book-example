@@ -1,7 +1,7 @@
 package io.kraftsman.collection.technique.operation
 
 /**
- * sortBy() - 以傳入的 λ 正向排序
+ * sortBy() - 依傳入的 λ 正向排序
  */
 
 // 建立範例資料

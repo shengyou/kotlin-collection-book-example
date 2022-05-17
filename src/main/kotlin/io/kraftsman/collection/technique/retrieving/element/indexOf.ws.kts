@@ -1,7 +1,7 @@
 package io.kraftsman.collection.technique.retrieving.element
 
 /**
- * indexOf() - 搜尋第一個符合指定元素的索引 ，找不到就回傳 -1
+ * indexOf() - 搜尋第一個符合指定元素的索引，找不到就回傳 -1
  */
 
 // 建立範例資料

@@ -1,7 +1,7 @@
 package io.kraftsman.collection.technique.retrieving.element
 
 /**
- * elementAtOrElse() - 取出指定位置的元素，若 Index 不存在可指定回傳預設值的邏輯
+ * elementAtOrElse() - 取出指定位置的元素，若索引不存在可指定回傳預設值的 λ
  */
 
 // 建立範例資料

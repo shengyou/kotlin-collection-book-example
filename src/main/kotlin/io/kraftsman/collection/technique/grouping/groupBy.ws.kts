@@ -3,7 +3,7 @@ package io.kraftsman.collection.technique.grouping
 import io.kraftsman.collection.data.Employee
 
 /**
- * groupBy() - 依指定條件分群
+ * groupBy() - 依條件分群
  */
 
 // 建立範例資料

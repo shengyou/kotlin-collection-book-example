@@ -1,7 +1,7 @@
 package io.kraftsman.collection.technique.aggregation
 
 /**
- * reduceTo() - 將分群後將每一組子集合做累進運算後寫入指定集合
+ * reduceTo() - 將分群後的每一組子集合做累進運算後附加至指定集合
  */
 
 // 建立範例資料

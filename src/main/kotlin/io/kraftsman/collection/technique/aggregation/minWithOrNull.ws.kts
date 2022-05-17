@@ -4,7 +4,7 @@ import io.kraftsman.collection.data.OrderItem
 import io.kraftsman.collection.data.Product
 
 /**
- * minWithOrNull() - 依 Comparator 找出最小元素，若是 Empty 集合回傳 Null
+ * minWithOrNull() - 依 Comparator 找出最小元素，若是 Empty 集合則回傳 Null
  */
 
 // 建立範例資料

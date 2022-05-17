@@ -1,7 +1,7 @@
 package io.kraftsman.collection.technique.retrieving.element
 
 /**
- * getOrElse() - 依索引取出集合內元素，若索引超出範圍可指定回傳預設值的邏輯
+ * getOrElse() - 依索引取出集合內元素，若索引超出範圍可指定回傳預設值的 λ
  */
 
 // 建立範例資料

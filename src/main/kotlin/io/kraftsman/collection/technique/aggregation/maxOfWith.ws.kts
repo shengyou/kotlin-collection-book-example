@@ -4,7 +4,7 @@ import io.kraftsman.collection.data.OrderItem
 import io.kraftsman.collection.data.Product
 
 /**
- * maxOfWith() - 找出 λ 回傳物件後依 Comparator 找出最大元素，若是 Empty 集合會拋出 NoSuchElementException
+ * maxOfWith() - 找出 λ 回傳物件後依 Comparator 找出最大元素，若是 Empty 集合則拋出 NoSuchElementException
  */
 
 // 建立範例資料

@@ -1,7 +1,7 @@
 package io.kraftsman.collection.technique.operation
 
 /**
- * removeAt() - 刪除集合裡指定索引位置的元素
+ * removeAt() - 刪除集合裡指定索引位置的元素，若索引超出範圍則拋出 IndexOutOfBoundsException
  */
 
 // 建立範例資料

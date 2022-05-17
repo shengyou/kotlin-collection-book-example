@@ -1,7 +1,7 @@
 package io.kraftsman.collection.technique.aggregation
 
 /**
- * foldTo() - 將分群後將每一組子集合依初始值做累進運算後寫入指定集合
+ * foldTo() - 依初始值將分群後的每一組子集合做累進運算後附加至指定集合
  */
 
 // 建立範例資料
