@@ -17,5 +17,5 @@ class Bowl<T> {
 fun add(bowl: Bowl<Fruit>, fruit: Fruit) = bowl.add(fruit)
 
 val bowl = Bowl<Apple>()
-add(bowl, Pear()) // 無法通過編譯
-val apple = bowl.get()
+//add(bowl, Pear()) // 無法通過編譯
+//val apple = bowl.get()
