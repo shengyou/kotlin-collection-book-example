@@ -1,7 +1,7 @@
 package io.kraftsman.collection.technique.grouping
 
 /**
- * filterIndexed() - 在過濾集合時可取得索引
+ * filterIndexed() - 在過濾集合時包含索引
  */
 
 // 建立範例資料

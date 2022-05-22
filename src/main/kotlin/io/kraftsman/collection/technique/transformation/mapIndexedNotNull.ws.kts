@@ -3,7 +3,7 @@ package io.kraftsman.collection.technique.transformation
 import io.kraftsman.collection.data.Customer
 
 /**
- * mapIndexedNotNull() - 將集合轉換成其他元素時可取得索引並去除 Null 的結果
+ * mapIndexedNotNull() - 將集合轉換為其他元素組成的集合時包含索引，並去除 Null 的結果
  */
 
 // 建立範例資料

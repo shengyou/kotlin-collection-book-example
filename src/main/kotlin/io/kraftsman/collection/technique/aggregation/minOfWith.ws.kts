@@ -4,7 +4,7 @@ import io.kraftsman.collection.data.OrderItem
 import io.kraftsman.collection.data.Product
 
 /**
- * minOfWith() - 找出 λ 回傳物件後依 Comparator 找出最小元素，若是 Empty 集合則拋出 NoSuchElementException
+ * minOfWith() - 找出 λ 回傳物件後，依 Comparator 找出最小元素，若是 Empty 集合則拋出 NoSuchElementException
  */
 
 // 建立範例資料

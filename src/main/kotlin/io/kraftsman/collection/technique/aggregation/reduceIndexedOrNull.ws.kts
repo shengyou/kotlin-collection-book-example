@@ -1,7 +1,7 @@
 package io.kraftsman.collection.technique.aggregation
 
 /**
- * reduceIndexedOrNull() - 由左至右累進時可取得索引，若是 Empty 集合則回傳 Null
+ * reduceIndexedOrNull() - 由左至右累進，包含索引，若是 Empty 集合則回傳 Null
  */
 
 // 建立範例資料

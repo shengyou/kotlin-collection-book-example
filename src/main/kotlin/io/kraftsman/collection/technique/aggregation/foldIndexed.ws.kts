@@ -1,7 +1,7 @@
 package io.kraftsman.collection.technique.aggregation
 
 /**
- * foldIndexed() - 依給定的初始值由左向右累進時可取得索引
+ * foldIndexed() - 依給定的初始值由左向右累進，包含索引
  */
 
 // 建立範例資料

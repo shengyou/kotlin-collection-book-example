@@ -4,7 +4,7 @@ import io.kraftsman.collection.data.OrderItem
 import io.kraftsman.collection.data.Product
 
 /**
- * maxOfWithOrNull() - 找出 λ 回傳物件後依 Comparator 找出最大元素，若是 Empty 集合則回傳 Null
+ * maxOfWithOrNull() - 找出 λ 回傳物件後，依 Comparator 找出最大元素，若是 Empty 集合則回傳 Null
  */
 
 // 建立範例資料

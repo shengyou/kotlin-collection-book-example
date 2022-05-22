@@ -1,7 +1,7 @@
 package io.kraftsman.collection.technique.operation
 
 /**
- * removeFistOrNull() - 移除集合的第一個元素，若是 Empty 集合則回傳 Null
+ * removeFistOrNull() - 移除集合裡第一個元素，若是 Empty 集合則回傳 Null
  */
 
 // 建立範例資料

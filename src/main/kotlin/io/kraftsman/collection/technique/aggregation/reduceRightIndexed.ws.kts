@@ -1,7 +1,7 @@
 package io.kraftsman.collection.technique.aggregation
 
 /**
- * reduceRightIndexed() - 由右至左累進時可取得索引，若是 Empty 集合則拋出 UnsupportedOperationException
+ * reduceRightIndexed() - 由右至左累進，包含索引，若是 Empty 集合則拋出 UnsupportedOperationException
  */
 
 // 建立範例資料

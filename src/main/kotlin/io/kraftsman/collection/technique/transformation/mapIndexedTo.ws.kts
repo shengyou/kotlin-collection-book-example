@@ -3,7 +3,7 @@ package io.kraftsman.collection.technique.transformation
 import io.kraftsman.collection.data.Customer
 
 /**
- * mapIndexedTo() - 將集合轉換為其他元素時可取得索引，完成後附加至指定集合
+ * mapIndexedTo() - 將集合轉換為其他元素組成的集合時包含索引，完成後附加至指定集合
  */
 
 // 建立範例資料

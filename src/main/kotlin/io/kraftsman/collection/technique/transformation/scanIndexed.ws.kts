@@ -1,7 +1,7 @@
 package io.kraftsman.collection.technique.transformation
 
 /**
- * scanIndexed() - 依初始值及 λ 累進時可取得索引
+ * scanIndexed() - 依初始值及 λ 累進時包含索引
  */
 
 // 建立範例資料
