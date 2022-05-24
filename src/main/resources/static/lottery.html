@@ -6,7 +6,7 @@
 </head>
 <body>
 <h1>Kotlin Playground Demo</h1>
-<div class="kotlin-code" data-target-platform="java" theme="darcula" data-output-height="200">
+<div class="kotlin-code" theme="darcula" data-target-platform="java" data-output-height="200">
     package io.kraftsman
 
     fun main() {
@@ -14,8 +14,8 @@
         (1..49)
             .shuffled()
             .take(6)
-            .joinToString(",")
-            .let { println(it) }
+            .joinToString()
+            .let(::println)
     //sampleEnd
     }
 </div>
