@@ -1,0 +1,13 @@
+GET http://localhost:8080
+
+<> 2022-05-31T122512.200.txt
+
+###
+
+GET http://localhost:8080/json/kotlinx-serialization
+Accept: application/json
+
+###
+
+GET http://localhost:8080/api/v1/products
+Accept: application/json
