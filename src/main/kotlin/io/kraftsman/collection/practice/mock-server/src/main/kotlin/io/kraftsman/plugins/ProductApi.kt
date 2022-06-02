@@ -1,28 +1,41 @@
 package io.kraftsman.plugins
 
+import io.github.serpro69.kfaker.faker
 import io.kraftsman.dtos.Meta
 import io.kraftsman.dtos.Product
 import io.kraftsman.dtos.ProductApiResponse
+import io.kraftsman.extensions.format
+import io.kraftsman.extensions.thumbnail
 import io.ktor.http.*
 import io.ktor.server.application.*
 import io.ktor.server.response.*
 import io.ktor.server.routing.*
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
+import java.time.LocalDateTime
+import java.time.format.DateTimeFormatter
 import kotlin.math.ceil
+import kotlin.random.Random
 
 fun Application.configureProductApi() {
 
-    val products = (1..50).map {
+    val faker = faker { }
+    val amount = 50
+    val products = (1..amount).map {
         Product(
-            sku = "SKU-001",
-            name = "Product #$it",
-            description = "Product description",
-            price = 100,
-            rating = 3.2,
-            thumbnail = "https://api.lorem.space/image/furniture?w=300&h=300",
-            createdAt = "2022/06/01 00:00:00",
-            updatedAt = "2022/06/01 00:00:00",
+            sku = faker.string.bothify("???-###", true),
+            name = faker.commerce.productName(),
+            description = faker.marketing.buzzwords(),
+            price = Random.nextInt(10, 1000),
+            rating = Random.nextDouble(0.0, 5.0).format(2),
+            thumbnail = faker.commerce.thumbnail(),
+            createdAt = LocalDateTime.now()
+                .minusDays((amount - it).toLong())
+                .format(DateTimeFormatter.ISO_LOCAL_DATE_TIME),
+            updatedAt = LocalDateTime.now()
+                .minusDays((amount - it).toLong())
+                .plusHours(Random.nextLong(3, 20))
+                .format(DateTimeFormatter.ISO_LOCAL_DATE_TIME),
         )
     }
 
