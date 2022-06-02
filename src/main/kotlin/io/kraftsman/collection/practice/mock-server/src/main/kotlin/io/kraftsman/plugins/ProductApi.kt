@@ -26,8 +26,8 @@ fun Application.configureProductApi() {
             sku = faker.string.bothify("???-###", true),
             name = faker.commerce.productName(),
             description = faker.marketing.buzzwords(),
-            price = Random.nextInt(10, 1000),
-            rating = Random.nextDouble(0.0, 5.0).format(2),
+            price = Random.nextInt(10, 100000),
+            rating = Random.nextDouble(1.0, 5.0).format(2),
             thumbnail = faker.commerce.thumbnail(),
             createdAt = LocalDateTime.now()
                 .minusDays((amount - it).toLong())
