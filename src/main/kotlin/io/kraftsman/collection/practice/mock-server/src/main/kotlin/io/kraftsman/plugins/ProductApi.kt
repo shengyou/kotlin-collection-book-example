@@ -57,6 +57,13 @@ fun Application.configureProductApi() {
             val from = index * perPage + 1
             val to = from + currentPageProduct.count() - 1
 
+            val seconds = call.request.queryParameters["time"]?.toIntOrNull()
+            if (seconds != null) {
+                withContext(Dispatchers.IO) {
+                    Thread.sleep(seconds * 1000L)
+                }
+            }
+
             call.respond(
                 ProductApiResponse(
                     data = currentPageProduct,
