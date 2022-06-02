@@ -42,9 +42,9 @@ fun Application.configureProductApi() {
     routing {
         get("/api/v1/products") {
 
-            val currentPage = 1
+            val currentPage = call.request.queryParameters["page"]?.toIntOrNull() ?: 1
             val total = products.count()
-            val perPage = 10
+            val perPage = call.request.queryParameters["perPage"]?.toIntOrNull() ?: 10
             val lastPage = listOf(ceil(total.toDouble() / perPage).toInt(), 1).maxOrNull()!!
 
             if (currentPage > lastPage) call.respond(
