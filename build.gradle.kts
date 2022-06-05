@@ -14,6 +14,9 @@ repositories {
 
 dependencies {
     implementation(kotlin("script-runtime"))
+    implementation("io.github.serpro69:kotlin-faker:1.11.0")
+    implementation("org.apache.commons:commons-csv:1.9.0")
+    implementation("com.github.ajalt.mordant:mordant:2.0.0-beta6")
     testImplementation(kotlin("test"))
 }
 
