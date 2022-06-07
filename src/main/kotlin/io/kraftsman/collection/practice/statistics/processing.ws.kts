@@ -1,8 +1,8 @@
-package io.kraftsman.collection.practice.compute
+package io.kraftsman.collection.practice.statistics
 
 import com.github.ajalt.mordant.table.table
 import com.github.ajalt.mordant.terminal.Terminal
-import io.kraftsman.collection.practice.compute.models.Registrant
+import io.kraftsman.collection.practice.statistics.models.Registrant
 import java.io.File
 import java.math.RoundingMode
 import java.time.LocalDateTime

@@ -1,4 +1,4 @@
-package io.kraftsman.collection.practice.compute.models
+package io.kraftsman.collection.practice.statistics.models
 
 import java.time.LocalDateTime
 

@@ -1,4 +1,4 @@
-package io.kraftsman.collection.practice.compute.generators
+package io.kraftsman.collection.practice.statistics.generators
 
 object CityGenerator {
     private val cities = listOf(

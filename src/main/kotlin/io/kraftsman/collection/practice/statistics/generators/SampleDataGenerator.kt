@@ -1,6 +1,6 @@
-package io.kraftsman.collection.practice.compute.generators
+package io.kraftsman.collection.practice.statistics.generators
 
-import io.kraftsman.collection.practice.compute.models.Registrant
+import io.kraftsman.collection.practice.statistics.models.Registrant
 import org.apache.commons.csv.CSVFormat
 import org.apache.commons.csv.CSVPrinter
 import java.io.BufferedWriter
