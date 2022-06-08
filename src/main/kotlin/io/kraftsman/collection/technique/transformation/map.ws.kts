@@ -4,7 +4,7 @@ import io.kraftsman.collection.data.Address
 import io.kraftsman.collection.data.Customer
 
 /**
- * map() - 將 Collection 轉換為其他元素
+ * map() - 將集合轉換為其他元素
  */
 
 // 建立範例資料
