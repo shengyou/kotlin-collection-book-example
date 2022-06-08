@@ -1,7 +1,5 @@
 package io.kraftsman.collection.practice.statistics
 
-import com.github.ajalt.mordant.table.table
-import com.github.ajalt.mordant.terminal.Terminal
 import io.kraftsman.collection.practice.statistics.models.Registrant
 import java.io.File
 import java.math.RoundingMode
@@ -9,9 +7,9 @@ import java.time.LocalDateTime
 import java.time.format.DateTimeFormatter
 
 val basePath = "/Users/shengyou/IdeaProjects/kotlin-collection-book-example/" +
-        "src/main/kotlin/io/kraftsman/collection/practice/compute/dataset"
+        "src/main/kotlin/io/kraftsman/collection/practice/statistics/dataset"
 val filName = "kotlin-meetup-1.csv"
-val formatter = DateTimeFormatter.ofPattern("M/d/yyyy H:m:s")
+val formatter: DateTimeFormatter = DateTimeFormatter.ofPattern("M/d/yyyy H:m:s")
 
 val recordSet = File("$basePath/$filName").readLines()
     .drop(1)
@@ -32,52 +30,6 @@ val recordSet = File("$basePath/$filName").readLines()
         )
     }
 
-// 總報名人數
-recordSet.size
-recordSet.count()
-
-// 可參加活動的人數
-recordSet.filterNot {
-    it.hasSymptom ||
-            it.hasTravelRecords ||
-            it.needQuarantine
-}.count()
-
-// 每日報名分佈
-recordSet.groupingBy {
-    it.registrationAt.toLocalDate()
-}.eachCount()
-
-// 參與者的縣市分佈
-recordSet.filter { it.city.isNotEmpty() }
-    .groupingBy { it.city }
-    .eachCount()
-
-// 職位清單
-recordSet.filter { it.position.isNotEmpty() }
-    .map { it.position }
-    .distinct()
-    .sorted()
-
-// 職位分佈
-recordSet.filter { it.position.isNotEmpty() }
-    .map {
-        it.copy(
-            position = if (
-                it.position
-                    .lowercase()
-                    .contains("android")
-            ) {
-                "Android 開發者"
-            } else {
-                it.position
-            }
-        )
-    }
-    .groupingBy { it.position }
-    .eachCount()
-
-// 報到率
 val participants = listOf(
     "雲佳玲",
     "文雅君",
@@ -135,30 +87,8 @@ val participants = listOf(
     "慎佩玲",
 )
 
-val participantRate = recordSet.filter {
-    it.name in participants
-}.let {
-    (it.size.toDouble() / recordSet.size.toDouble() * 100)
-        .toBigDecimal().setScale(2, RoundingMode.UP).toDouble()
-}
-
-println("報到率：$participantRate %")
-
-
-val t = Terminal()
-recordSet.groupingBy {
-    it.registrationAt.toLocalDate().atStartOfDay()
-}.eachCount()
-    .let {
-        t.println(table {
-            header { row("Date", "Count") }
-            body {
-                it.forEach { (date, count) ->
-                    row(
-                        date.format(DateTimeFormatter.ISO_DATE),
-                        count
-                    )
-                }
-            }
-        })
-    }
+(participants.size.toDouble() / recordSet.size.toDouble() * 100)
+    .toBigDecimal()
+    .setScale(2, RoundingMode.UP)
+    .toDouble()
+    .let { println("報到率：$it %") }

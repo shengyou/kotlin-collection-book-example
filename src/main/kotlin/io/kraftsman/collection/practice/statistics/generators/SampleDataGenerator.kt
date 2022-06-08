@@ -11,7 +11,7 @@ import java.time.format.DateTimeFormatter
 fun main() {
 
     val basePath = "/Users/shengyou/IdeaProjects/kotlin-collection-book-example/" +
-            "src/io.kraftsman.collection.practice.compute.main/kotlin/io/kraftsman/collection/practice/compute/dataset"
+            "src/main/kotlin/io/kraftsman/collection/practice/statistics/dataset"
     val fileName = "kotlin-meetup-1.csv"
 
     val amount = 61
