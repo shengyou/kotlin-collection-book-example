@@ -90,5 +90,5 @@ recordSet.partition {
     it.name in participants
 }.let {
     println("報到人數：${it.first.count()}")
-    println("No-show 人數：${it.second.count()}")
+    println("未出席人數：${it.second.count()}")
 }
