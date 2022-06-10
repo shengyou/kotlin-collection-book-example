@@ -11,7 +11,7 @@ val mapOfWarehouse = mapOf(
     "Orange" to 5,
 )
 
-// 測試 APIs
+// 示範使用方式
 mapOfWarehouse.entries.map {
     it.toPair()
 }

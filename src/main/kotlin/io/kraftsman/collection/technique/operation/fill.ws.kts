@@ -8,7 +8,7 @@ package io.kraftsman.collection.technique.operation
 val numbers = mutableListOf(1, 3, 5, 7, 9)
 val numberArray = intArrayOf(1, 3, 5, 7, 9)
 
-// 測試 APIs
+// 示範使用方式
 numbers.fill(10)
 println(numbers)
 

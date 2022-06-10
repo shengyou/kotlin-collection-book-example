@@ -9,7 +9,7 @@ val numbers = listOf(5, 2, 10, 4)
 val emptyListOfNumbers = emptyList<Int>()
 val listOfNothing = listOf<Int>()
 
-// 測試 APIs
+// 示範使用方式
 numbers.reduceRightOrNull { accumulator, element ->
     accumulator - element
 }

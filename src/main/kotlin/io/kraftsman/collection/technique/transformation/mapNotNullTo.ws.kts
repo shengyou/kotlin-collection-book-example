@@ -16,7 +16,7 @@ val customers = listOf(
 )
 val customerNames = mutableListOf("Tom")
 
-// 測試 APIs
+// 示範使用方式
 customers.mapNotNullTo(customerNames) {
     if (it.name.length > 3) {
         it.name

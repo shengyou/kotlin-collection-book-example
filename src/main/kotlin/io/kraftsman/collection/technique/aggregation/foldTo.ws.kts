@@ -15,7 +15,7 @@ val fruits = listOf(
     "coconut"
 )
 
-// 測試 APIs
+// 示範使用方式
 fruits.groupingBy { it.first() }
     .foldTo(
         mutableMapOf(),

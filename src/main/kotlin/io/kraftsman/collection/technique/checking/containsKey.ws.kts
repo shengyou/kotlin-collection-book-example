@@ -11,7 +11,7 @@ val warehouse = mapOf(
     "Orange" to 5,
 )
 
-// 測試 APIs
+// 示範使用方式
 warehouse.contains("Apple")
 
 warehouse.containsKey("Apple")

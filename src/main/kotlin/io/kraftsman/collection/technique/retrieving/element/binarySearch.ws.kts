@@ -15,7 +15,7 @@ val products = listOf(
     Product("FT-0952", "Orange", 60.0),
 )
 
-// 測試 APIs
+// 示範使用方式
 products.sortedBy { it.price }
     .binarySearch(
         Product("FT-0422", "Watermelon", 150.0),

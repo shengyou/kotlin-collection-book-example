@@ -7,7 +7,7 @@ package io.kraftsman.collection.technique.checking
 // 建立範例資料
 var numbers: List<Int>? = null
 
-// 測試 APIs
+// 示範使用方式
 numbers.isNullOrEmpty()
 numbers = listOf(1,2,3)
 numbers.isNullOrEmpty()

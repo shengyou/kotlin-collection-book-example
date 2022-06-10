@@ -16,7 +16,7 @@ val lookupTable = mutableMapOf(
     4 to "Wong Tim"
 )
 
-// 測試 APIs
+// 示範使用方式
 students.associateTo(lookupTable) {
     it.id to "${it.lastName} ${it.firstName}"
 }

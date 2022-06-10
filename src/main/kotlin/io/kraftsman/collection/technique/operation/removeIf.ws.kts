@@ -8,7 +8,7 @@ package io.kraftsman.collection.technique.operation
 val names = mutableListOf("John", "Tom", "Mary")
 val nameList = mutableListOf("John", "Tom", "Mary")
 
-// 測試 APIs
+// 示範使用方式
 names.removeIf { it.contains('o') }
 println(names)
 

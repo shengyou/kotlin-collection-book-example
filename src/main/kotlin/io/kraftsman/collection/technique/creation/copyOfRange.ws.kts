@@ -8,6 +8,6 @@ package io.kraftsman.collection.technique.creation
 val arrayOfNumbers = arrayOf(1, 2, 3, 4, 5)
 val arrayOfStrings = arrayOf("Apple", "Banana", "Orange")
 
-// 測試 APIs
+// 示範使用方式
 arrayOfNumbers.copyOfRange(2, 4).contentToString()
 arrayOfStrings.copyOfRange(1, 3).contentToString()

@@ -9,7 +9,7 @@ val numbers = mutableListOf(2, 3, 5, 6, 7)
 val emptyList = emptyList<Int>()
 val nothingInList = listOf<Int>()
 
-// 測試 APIs
+// 示範使用方式
 numbers.clear()
 numbers.randomOrNull()
 

@@ -15,7 +15,7 @@ val customers = listOf(
     Customer("Craig", 45),
 )
 
-// 測試 APIs
+// 示範使用方式
 customers.mapIndexedNotNull { index, customer ->
     if (customer.name.length > 4) {
         "$index: ${customer.name}"

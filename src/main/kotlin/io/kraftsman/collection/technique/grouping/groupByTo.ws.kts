@@ -16,7 +16,7 @@ val phoneToYear = listOf(
 )
 val phonesByYear = mutableMapOf<Int, MutableList<String>>()
 
-// 測試 APIs
+// 示範使用方式
 phoneToYear.groupByTo(
     phonesByYear,
     { it.second },

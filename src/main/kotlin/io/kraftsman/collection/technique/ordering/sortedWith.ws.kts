@@ -18,7 +18,7 @@ val warehouse = listOf(
     "Pineapple" to 47
 )
 
-// 測試 APIs
+// 示範使用方式
 target.sortedWith(lengthComparator)
 
 target.sortedWith(compareBy { it.length })

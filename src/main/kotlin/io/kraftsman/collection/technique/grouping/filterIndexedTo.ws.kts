@@ -9,7 +9,7 @@ val fruits = listOf("Grape", "Papaya", "Pineapple", "Pear")
 val shoppingList = mutableListOf("Apple")
 val emptyList = mutableListOf<String>()
 
-// 測試 APIs
+// 示範使用方式
 fruits.filterIndexedTo(shoppingList) { index, element ->
     (index != 0) && (element.length < 5)
 }

@@ -16,7 +16,7 @@ val cart = listOf(
 val emptyListOfOrderItem = emptyList<OrderItem>()
 val listOfNothing = listOf<OrderItem>()
 
-// 測試 APIs
+// 示範使用方式
 cart.minWithOrNull(compareBy{ it.amount })
 emptyListOfOrderItem.minWithOrNull(compareBy { it.amount })
 listOfNothing.minWithOrNull(compareBy { it.amount })

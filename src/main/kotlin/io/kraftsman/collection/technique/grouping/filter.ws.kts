@@ -12,7 +12,7 @@ val warehouse = mapOf(
     "Orange" to 5,
 )
 
-// 測試 APIs
+// 示範使用方式
 fruits.filter { it.startsWith('P') }
 
 warehouse.filter {

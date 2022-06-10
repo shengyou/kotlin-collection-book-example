@@ -13,7 +13,7 @@ val customers = mapOf(
     3 to Customer("Peter", 37),
 )
 
-// 測試 APIs
+// 示範使用方式
 customers.mapKeys { it.value.name }
 
 customers.mapKeys { (_, customer) ->

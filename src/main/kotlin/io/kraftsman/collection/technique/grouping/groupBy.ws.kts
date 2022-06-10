@@ -23,7 +23,7 @@ val employees = listOf(
     Employee(5, "Tracy", "Design"),
 )
 
-// 測試 APIs
+// 示範使用方式
 fruits.groupBy { it.first() }
 fruits.groupBy(
     { it.first().uppercaseChar() },

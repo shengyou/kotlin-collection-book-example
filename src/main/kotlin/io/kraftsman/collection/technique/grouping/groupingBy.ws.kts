@@ -16,7 +16,7 @@ val languages = listOf(
     "swift"
 )
 
-// 測試 APIs
+// 示範使用方式
 languages.groupingBy {
     it.first().uppercase()
 }.eachCount()

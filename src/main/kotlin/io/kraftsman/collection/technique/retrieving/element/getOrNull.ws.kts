@@ -7,7 +7,7 @@ package io.kraftsman.collection.technique.retrieving.element
 // 建立範例資料
 val listOfNames = listOf("Tom", "John", "Allen", "Sean")
 
-// 測試 APIs
+// 示範使用方式
 listOfNames.getOrNull(1)
 listOfNames.getOrNull(10)
 listOfNames.getOrNull(10) ?: "Unknown Person"

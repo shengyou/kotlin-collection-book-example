@@ -15,7 +15,7 @@ val fruits = arrayOf(
     "Tangerine"
 )
 
-// 測試 APIs
+// 示範使用方式
 fruits.sliceArray(1..3).contentToString()
 fruits.sliceArray((0..4 step 2).toList()).contentToString()
 

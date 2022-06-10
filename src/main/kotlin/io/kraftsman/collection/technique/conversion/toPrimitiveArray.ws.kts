@@ -23,7 +23,7 @@ val long = listOf(3000000000, 1L)
 val short = listOf<Short>(-32768, 32767)
 val bites = listOf<Byte>(1, 2, 3, 4, 5)
 
-// 測試 APIs
+// 示範使用方式
 integer.toIntArray()
 boolean.toBooleanArray()
 char.toCharArray()

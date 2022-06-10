@@ -16,7 +16,7 @@ val students = listOf(
     Student(6, "Simon", "Fan", "simon.fan@gmail.com", 2)
 )
 
-// 測試 APIs
+// 示範使用方式
 students.associateBy { it.id }
 
 students.associateBy(

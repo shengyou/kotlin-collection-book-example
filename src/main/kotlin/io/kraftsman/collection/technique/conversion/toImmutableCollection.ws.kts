@@ -15,7 +15,7 @@ val listOfPairs = listOf(
     Pair(3, "Pineapple")
 )
 
-// 測試 APIs
+// 示範使用方式
 setOfNumbers.toList()
 listOfNumbers.toSet()
 listOfPairs.toMap()

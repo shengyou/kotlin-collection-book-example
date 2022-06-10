@@ -14,5 +14,5 @@ val cart = listOf(
     OrderItem(3, Product("FT-0952", "Orange", 60.0), 3),
 )
 
-// 測試 APIs
+// 示範使用方式
 cart.maxOf { it.amount }

@@ -16,5 +16,5 @@ val lookupTable = mutableMapOf(
     Student(4, "Tim", "Wong", "tim.wong@gmail.com", 4) to 4
 )
 
-// 測試 APIs
+// 示範使用方式
 students.associateWithTo(lookupTable) { it.id }

@@ -11,5 +11,5 @@ val languages = mapOf(
     "C++" to 1980,
 )
 
-// 測試 APIs
+// 示範使用方式
 languages.filterValues { it <= 2000 }

@@ -8,7 +8,7 @@ package io.kraftsman.collection.technique.aggregation
 val numbers = listOf(5, 2, 10, 4)
 val strings = listOf("a", "b", "c", "d", "e")
 
-// 測試 APIs
+// 示範使用方式
 numbers.foldIndexed(100) { index, accumulator, element ->
     accumulator + (index * element)
 }

@@ -7,6 +7,6 @@ package io.kraftsman.collection.technique.operation
 // 建立範例資料
 val fruits = mutableListOf("Grape", "Muskmelon", "Kumquat", "Pear")
 
-// 測試 APIs
+// 示範使用方式
 fruits.sortBy { it.length }
 println(fruits)

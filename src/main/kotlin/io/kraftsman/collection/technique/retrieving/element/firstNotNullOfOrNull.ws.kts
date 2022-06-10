@@ -17,7 +17,7 @@ val employees = listOf(
 val emptyList = emptyList<Employee>()
 val nothingInList = listOf<Employee>()
 
-// 測試 APIs
+// 示範使用方式
 employees.firstNotNullOfOrNull { it.skills }
 
 emptyList.firstNotNullOfOrNull { it.skills }

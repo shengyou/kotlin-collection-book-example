@@ -9,7 +9,7 @@ val numbers = listOf(2, 2, 3, 2, 2, 2)
 val emptyList = emptyList<Int>()
 val nothingInList = listOf<Int>()
 
-// 測試 APIs
+// 示範使用方式
 numbers.singleOrNull()
 emptyList.singleOrNull()
 nothingInList.singleOrNull()

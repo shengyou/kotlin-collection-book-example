@@ -8,7 +8,7 @@ package io.kraftsman.collection.technique.retrieving.parts
 val numbers = listOf(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
 val chars = listOf('a', 'b', 'c', 'd', 'e', 'f', 'g')
 
-// 測試 APIs
+// 示範使用方式
 numbers.chunked(3)
 
 numbers.chunked(3) { it.sum() }

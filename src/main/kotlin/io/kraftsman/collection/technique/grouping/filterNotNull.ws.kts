@@ -14,7 +14,7 @@ val fruits = listOf(
     "Pear"
 )
 
-// 測試 APIs
+// 示範使用方式
 fruits.filterNotNull()
 
 fruits.filter { it != null }

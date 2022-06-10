@@ -10,7 +10,7 @@ val lengthComparator = Comparator { str1: String, str2: String ->
     str1.length - str2.length
 }
 
-// 測試 APIs
+// 示範使用方式
 target.sortWith(lengthComparator)
 println(target)
 

@@ -20,7 +20,7 @@ val people = listOf(
     Student(5, "Sean", "Lin", "sean.lin@gmail.com", 6)
 )
 
-// 測試 APIs
+// 示範使用方式
 staff.partition { it.level <= 3 }
 
 val (junior, senior) = staff.partition { it.level <= 3 }

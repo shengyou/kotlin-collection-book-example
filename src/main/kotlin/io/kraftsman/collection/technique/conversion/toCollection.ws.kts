@@ -9,7 +9,7 @@ val listOfNumbers = listOf(1, 2, 3, 4, 5)
 val emptyDestination = mutableListOf<Int>()
 val prefilledDestination = mutableListOf(1, 2, 3)
 
-// 測試 APIs
+// 示範使用方式
 listOfNumbers.toCollection(mutableListOf())
 listOfNumbers.toCollection(emptyDestination)
 listOfNumbers.toCollection(prefilledDestination)

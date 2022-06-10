@@ -14,5 +14,5 @@ val employees = listOf(
 )
 val employeeSkills = mutableListOf("Accounting")
 
-// 測試 APIs
+// 示範使用方式
 employees.flatMapTo(employeeSkills) { it.skills ?: listOf() }

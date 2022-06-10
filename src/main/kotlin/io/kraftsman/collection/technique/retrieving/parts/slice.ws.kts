@@ -15,7 +15,7 @@ val fruits = listOf(
     "Tangerine"
 )
 
-// 測試 APIs
+// 示範使用方式
 fruits.slice(1..3)
 fruits.slice(0..4 step 2)
 

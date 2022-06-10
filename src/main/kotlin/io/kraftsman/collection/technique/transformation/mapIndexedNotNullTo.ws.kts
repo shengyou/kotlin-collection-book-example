@@ -16,7 +16,7 @@ val customers = listOf(
 )
 val customerNames = mutableListOf<String>()
 
-// 測試 APIs
+// 示範使用方式
 customers.mapIndexedNotNullTo(customerNames) { index, customer ->
     if (customer.name.length > 4) {
         "$index: ${customer.name}"

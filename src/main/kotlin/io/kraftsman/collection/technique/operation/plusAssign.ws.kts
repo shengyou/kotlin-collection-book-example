@@ -7,7 +7,7 @@ package io.kraftsman.collection.technique.operation
 // 建立範例資料
 val names = mutableListOf("John", "Tom", "Mary")
 
-// 測試 APIs
+// 示範使用方式
 names.plusAssign("Simon")
 println(names)
 

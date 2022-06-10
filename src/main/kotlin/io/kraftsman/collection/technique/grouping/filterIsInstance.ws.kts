@@ -14,6 +14,6 @@ val people = listOf(
     Student(5, "Sean", "Lin", "sean.lin@gmail.com", 6)
 )
 
-// 測試 APIs
+// 示範使用方式
 people.filterIsInstance<Teacher>()
 people.filterIsInstance<Student>()

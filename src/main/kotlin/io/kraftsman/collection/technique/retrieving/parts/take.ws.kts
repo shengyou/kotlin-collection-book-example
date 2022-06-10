@@ -7,6 +7,6 @@ package io.kraftsman.collection.technique.retrieving.parts
 // 建立範例資料
 val numbers = listOf(1, 2, 3, 4, 5, 6)
 
-// 測試 APIs
+// 示範使用方式
 numbers.take(3)
 numbers.take(100)

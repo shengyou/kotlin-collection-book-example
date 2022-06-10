@@ -7,7 +7,7 @@ package io.kraftsman.collection.technique.retrieving.parts
 // 建立範例資料
 val fruits = listOf("Grape", "Muskmelon", "Pear", "Kumquat")
 
-// 測試 APIs
+// 示範使用方式
 fruits.takeLastWhile {
     it.length > 4
 }

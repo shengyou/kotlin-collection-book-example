@@ -7,7 +7,7 @@ package io.kraftsman.collection.technique.retrieving.element
 // 建立範例資料
 val setOfNames = setOf("Tom", "John", "Allen", "Sean")
 
-// 測試 APIs
+// 示範使用方式
 setOfNames.elementAtOrNull(1)
 setOfNames.elementAtOrNull(10)
 setOfNames.elementAtOrNull(10) ?: "Unknown Person"

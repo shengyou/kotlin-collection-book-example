@@ -7,6 +7,6 @@ package io.kraftsman.collection.technique.retrieving.element
 // 建立範例資料
 val words = listOf("Lets", "find", "something", "in", "collection", "somehow")
 
-// 測試 APIs
+// 示範使用方式
 words.findLast { it.startsWith("some") }
 words.findLast { it.startsWith("any") }

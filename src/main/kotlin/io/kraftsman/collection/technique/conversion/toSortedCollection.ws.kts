@@ -25,7 +25,7 @@ val yearByLanguage = mapOf(
     1995 to "Ruby",
 )
 
-// 測試 APIs
+// 示範使用方式
 listOfNumbers.toSortedSet()
 
 languagesByYear.toSortedMap()

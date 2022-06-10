@@ -16,7 +16,7 @@ val orders = mapOf(
     Customer("Craig", 45) to Address("Tainan", "703"),
 )
 
-// 測試 APIs
+// 示範使用方式
 orders.map { (customer, address) ->
     "${address.postcode} ${address.city} ${customer.name}"
 }

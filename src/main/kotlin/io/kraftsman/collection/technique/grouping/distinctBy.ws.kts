@@ -17,7 +17,7 @@ val employees = listOf(
     Employee(5, "Tracy", "Design"),
 )
 
-// 測試 APIs
+// 示範使用方式
 chars.distinctBy { it.uppercaseChar() }
 fruits.distinctBy { it.first() }
 employees.distinctBy { it.department }

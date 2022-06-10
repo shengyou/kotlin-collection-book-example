@@ -15,7 +15,7 @@ val employees = listOf(
     Employee(5, "Tracy", "Design", listOf("Graphic")),
 )
 
-// 測試 APIs
+// 示範使用方式
 employees.flatMap { it.skills ?: listOf() }
 
 employees.mapNotNull { it.skills }

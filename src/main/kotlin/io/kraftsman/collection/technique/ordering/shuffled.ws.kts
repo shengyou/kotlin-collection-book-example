@@ -15,7 +15,7 @@ val raffle = listOf(
     LotteryDrawer("Paul"),
 )
 
-// 測試 APIs
+// 示範使用方式
 raffle.shuffled()
 
 raffle.shuffled()

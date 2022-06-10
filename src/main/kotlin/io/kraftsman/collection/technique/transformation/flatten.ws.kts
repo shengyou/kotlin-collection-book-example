@@ -11,5 +11,5 @@ val numberSets = listOf(
     setOf(1, 2),
 )
 
-// 測試 APIs
+// 示範使用方式
 numberSets.flatten()

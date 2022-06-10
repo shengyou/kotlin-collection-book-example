@@ -16,7 +16,7 @@ val customers = listOf(
 )
 val customerWithIndex = mutableListOf<String>()
 
-// 測試 APIs
+// 示範使用方式
 customers.mapIndexedTo(customerWithIndex) { index, customer ->
     "$index: ${customer.name}"
 }

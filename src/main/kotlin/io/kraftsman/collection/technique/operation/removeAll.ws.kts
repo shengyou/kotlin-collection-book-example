@@ -8,7 +8,7 @@ package io.kraftsman.collection.technique.operation
 val numbers = mutableListOf(1, 3, 5, 7, 9)
 val names = mutableListOf("John", "Tom", "Mary")
 
-// 測試 APIs
+// 示範使用方式
 numbers.removeAll(listOf(2, 3, 7))
 println(numbers)
 

@@ -7,6 +7,6 @@ package io.kraftsman.collection.technique.retrieving.element
 // 建立範例資料
 val numbers = listOf(5, 2, 2, 6, 2, 3, 7)
 
-// 測試 APIs
+// 示範使用方式
 numbers.indexOfFirst { it < 3 }
 numbers.indexOfFirst { it > 100 }

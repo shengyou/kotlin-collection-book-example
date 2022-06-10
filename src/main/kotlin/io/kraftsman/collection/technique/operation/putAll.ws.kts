@@ -11,7 +11,7 @@ val names = mutableMapOf(
     3 to "Mary",
 )
 
-// 測試 APIs
+// 示範使用方式
 names.putAll(
     mapOf(
         3 to "Simon",

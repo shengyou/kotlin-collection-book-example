@@ -7,6 +7,6 @@ package io.kraftsman.collection.technique.ordering
 // 建立範例資料
 val fruits = listOf("Grape", "Muskmelon", "Kumquat", "Pear")
 
-// 測試 APIs
+// 示範使用方式
 fruits.sortedByDescending { it.length }
 fruits.sortedByDescending { it.last() }

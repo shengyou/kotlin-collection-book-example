@@ -16,7 +16,7 @@ val cart = listOf(
 val emptyListOfOrderItem = emptyList<OrderItem>()
 val listOfNothing = listOf<OrderItem>()
 
-// 測試 APIs
+// 示範使用方式
 cart.maxOfWithOrNull(compareBy{ it.amount }) { it }
 emptyListOfOrderItem.maxOfWithOrNull(compareBy{ it.amount }) { it }
 listOfNothing.maxOfWithOrNull(compareBy{ it.amount }) { it }

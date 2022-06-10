@@ -8,7 +8,7 @@ package io.kraftsman.collection.technique.aggregation
 val numberStrings = listOf("one", "two", "three", "four", "five", "six")
 val longestWordInGroup = mutableMapOf<Char, String>()
 
-// 測試 APIs
+// 示範使用方式
 numberStrings.groupingBy { it.first() }
     .reduceTo(longestWordInGroup) { _, accumulator, element ->
         maxOf(accumulator, element, compareBy { it.length })

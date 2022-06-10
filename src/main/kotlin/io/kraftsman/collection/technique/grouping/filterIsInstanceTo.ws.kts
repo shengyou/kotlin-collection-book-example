@@ -18,7 +18,7 @@ val teachers = mutableListOf(
 )
 val emptyList = mutableListOf<Teacher>()
 
-// 測試 APIs
+// 示範使用方式
 people.filterIsInstanceTo(teachers)
 
 people.filterIsInstanceTo(emptyList)

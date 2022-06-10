@@ -8,5 +8,5 @@ package io.kraftsman.collection.technique.creation
 val arrayOfFruits = arrayOf("Apple", "Banana", "Orange")
 val destinationArray = arrayOf("Blackberry", "Coconut", "Cherry", "Peach", "Avocado")
 
-// 測試 APIs
+// 示範使用方式
 arrayOfFruits.copyInto(destinationArray, 1, 1, 3).contentToString()

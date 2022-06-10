@@ -7,7 +7,7 @@ package io.kraftsman.collection.technique.checking
 // 建立範例資料
 val numbers = mutableListOf(1, 2, 3, 4, 5)
 
-// 測試 APIs
+// 示範使用方式
 numbers.isNotEmpty()
 numbers.clear()
 numbers.isNotEmpty()

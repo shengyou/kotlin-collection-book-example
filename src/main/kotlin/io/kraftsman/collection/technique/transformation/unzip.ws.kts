@@ -11,5 +11,5 @@ val warehouse = listOf(
     "Orange" to 5,
 )
 
-// 測試 APIs
+// 示範使用方式
 val (fruits, amounts) = warehouse.unzip()

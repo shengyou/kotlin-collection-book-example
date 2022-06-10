@@ -15,7 +15,7 @@ val customers = listOf(
     Customer("Craig", 45),
 )
 
-// 測試 APIs
+// 示範使用方式
 customers.mapNotNull {
     if (it.name.length > 4) {
         it.name

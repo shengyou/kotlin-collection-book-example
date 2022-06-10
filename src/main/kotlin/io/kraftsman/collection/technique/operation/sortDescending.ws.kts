@@ -16,7 +16,7 @@ val strings = mutableListOf(
 )
 val intArray = intArrayOf(4, 1, 5, 3, 2)
 
-// 測試 APIs
+// 示範使用方式
 numbers.sortDescending()
 println(numbers)
 

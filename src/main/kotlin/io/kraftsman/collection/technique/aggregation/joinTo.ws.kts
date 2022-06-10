@@ -8,7 +8,7 @@ package io.kraftsman.collection.technique.aggregation
 val numberStrings = listOf("one", "two", "three", "four")
 val buffer = StringBuffer("The list of numbers: ")
 
-// 測試 APIs
+// 示範使用方式
 numberStrings.joinTo(
     buffer = buffer,
     separator = ", ",

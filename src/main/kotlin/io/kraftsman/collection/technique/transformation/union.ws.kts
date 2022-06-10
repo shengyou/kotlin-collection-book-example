@@ -11,7 +11,7 @@ val leftRandomOrder = listOf(3, 1, 2)
 val rightRandomOrder = listOf(5, 3, 4)
 val leftWithDuplicates = listOf(1, 1, 2, 2, 2, 3)
 
-// 測試 APIs
+// 示範使用方式
 left.union(right)
 
 leftRandomOrder.union(rightRandomOrder)

@@ -8,6 +8,6 @@ package io.kraftsman.collection.technique.retrieving.element
 val onlyOneNumber = listOf(2)
 val numbers = listOf(2, 2, 3, 2, 2, 2)
 
-// 測試 APIs
+// 示範使用方式
 onlyOneNumber.single()
 numbers.single { it != 2 }

@@ -7,6 +7,6 @@ package io.kraftsman.collection.technique.operation
 // 建立範例資料
 val numbers = mutableListOf(1, 2, 3, 4, 5)
 
-// 測試 APIs
+// 示範使用方式
 numbers.set(2, 100)
 println(numbers)

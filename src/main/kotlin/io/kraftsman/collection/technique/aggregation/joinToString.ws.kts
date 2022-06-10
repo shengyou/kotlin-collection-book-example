@@ -8,7 +8,7 @@ package io.kraftsman.collection.technique.aggregation
 val numberStrings = listOf("one", "two", "three", "four")
 var manualOutput = ""
 
-// 測試 APIs
+// 示範使用方式
 println(numberStrings)
 
 numberStrings.toString()

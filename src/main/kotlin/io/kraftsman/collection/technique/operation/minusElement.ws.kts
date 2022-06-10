@@ -10,7 +10,7 @@ val names = mutableListOf(
     listOf("John", "Tom", "Mary"),
 )
 
-// 測試 APIs
+// 示範使用方式
 names.minusElement(listOf("Simon", "Bruce"))
 
 names.minus(listOf("Simon", "Bruce"))

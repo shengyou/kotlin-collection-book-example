@@ -14,7 +14,7 @@ val customers = mapOf(
 )
 val customerNames = mutableMapOf<String, Customer>()
 
-// 測試 APIs
+// 示範使用方式
 customers.mapKeysTo(customerNames) { (_, customer) ->
     customer.name
 }

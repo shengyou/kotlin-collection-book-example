@@ -7,7 +7,7 @@ package io.kraftsman.collection.technique.aggregation
 // 建立範例資料
 val numbers = listOf(3, 4, 5, 6, 7, 8, 9)
 
-// 測試 APIs
+// 示範使用方式
 numbers.groupingBy { it % 3 }
     .aggregate { _, accumulator: String?, element, first ->
         if (first)

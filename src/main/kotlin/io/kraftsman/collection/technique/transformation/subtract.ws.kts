@@ -8,6 +8,6 @@ package io.kraftsman.collection.technique.transformation
 val left = listOf(1, 2, 3)
 val right = listOf(2, 3, 4)
 
-// 測試 APIs
+// 示範使用方式
 left.subtract(right)
 left subtract right

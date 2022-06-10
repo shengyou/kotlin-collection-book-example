@@ -10,7 +10,7 @@ val names = mutableListOf(
     listOf("Mary")
 )
 
-// 測試 APIs
+// 示範使用方式
 names.plusElement(listOf("Simon", "Bruce"))
 
 names.plus(listOf("Simon", "Bruce"))

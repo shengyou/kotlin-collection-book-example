@@ -9,7 +9,7 @@ val fruits = listOf("Grape", "Papaya", "Pineapple", "Pear")
 val shoppingList = mutableListOf("Apple")
 val emptyList = mutableListOf<String>()
 
-// 測試 APIs
+// 示範使用方式
 fruits.filterNotTo(emptyList) {
     it.startsWith('P')
 }

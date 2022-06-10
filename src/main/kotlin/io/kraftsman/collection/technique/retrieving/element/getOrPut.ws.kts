@@ -15,6 +15,6 @@ val orders = mutableMapOf(
     "Craig" to Address("Tainan", "703"),
 )
 
-// 測試 APIs
+// 示範使用方式
 orders.getOrPut("Sue") { Address("Taitung", "950") }
 orders.getOrPut("Simon") { Address("Taitung", "950") }

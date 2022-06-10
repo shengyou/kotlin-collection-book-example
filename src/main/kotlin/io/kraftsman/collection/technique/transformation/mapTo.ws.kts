@@ -15,7 +15,7 @@ val orders = mapOf(
 )
 val addressBar = mutableListOf("703 Tainan Craig")
 
-// 測試 APIs
+// 示範使用方式
 orders.mapTo(addressBar) { (customer, address) ->
     "${address.postcode} ${address.city} ${customer.name}"
 }

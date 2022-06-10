@@ -8,7 +8,7 @@ package io.kraftsman.collection.technique.checking
 val fruits = listOf("Grape", "Papaya", "Pineapple", "Pear")
 val emptyList = emptyList<String>()
 
-// 測試 APIs
+// 示範使用方式
 fruits.all { it.endsWith("e") }
 
 // Vacuous Truth

@@ -16,7 +16,7 @@ val mapOfWarehouse = mapOf(
     "Orange" to 5,
 )
 
-// 測試 APIs
+// 示範使用方式
 val mutableList = listOfNumbers.toMutableList()
 mutableList.addAll(listOf(6, 7, 8, 9, 10))
 println(mutableList)

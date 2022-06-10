@@ -9,7 +9,7 @@ val numbers = listOf(20, 47, 8, 39, 13)
 val emptyListOfNumbers = emptyList<Int>()
 val listOfNothing = listOf<Int>()
 
-// 測試 APIs
+// 示範使用方式
 numbers.maxOrNull()
 emptyListOfNumbers.maxOrNull()
 listOfNothing.maxOrNull()

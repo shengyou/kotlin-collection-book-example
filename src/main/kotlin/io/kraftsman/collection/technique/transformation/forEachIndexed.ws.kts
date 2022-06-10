@@ -7,7 +7,7 @@ package io.kraftsman.collection.technique.transformation
 // 建立範例資料
 val numbers = listOf(1, 3, 5, 7, 9)
 
-// 測試 APIs
+// 示範使用方式
 numbers.forEachIndexed { index, element ->
     println("index=$index, element=$element")
 }

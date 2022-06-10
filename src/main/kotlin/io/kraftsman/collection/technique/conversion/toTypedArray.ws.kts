@@ -9,7 +9,7 @@ val strings = listOf("Grape", "Papaya", "Pineapple", "Pear")
 val numbers = listOf(1, 2, 3, 4, 5)
 val boolean = listOf(true, false, true, true)
 
-// 測試 APIs
+// 示範使用方式
 strings.toTypedArray()
 numbers.toTypedArray()
 boolean.toTypedArray()

@@ -18,6 +18,6 @@ val statistics = mutableMapOf(
     'D' to 0
 )
 
-// 測試 APIs
+// 示範使用方式
 fruits.groupingBy { it.first() }
     .eachCountTo(statistics)

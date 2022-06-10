@@ -15,6 +15,6 @@ val orders = mapOf(
     "Craig" to Address("Tainan", "703"),
 )
 
-// 測試 APIs
+// 示範使用方式
 orders.getOrDefault("Sue", Address("Taitung", "950"))
 orders.getOrDefault("Simon", Address("Taitung", "950"))

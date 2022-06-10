@@ -9,7 +9,7 @@ val animals = listOf("fox", "bear", "wolf")
 val onlyTwoAnimals = listOf("fox", "bear")
 val colors = listOf("red", "brown", "gray")
 
-// 測試 APIs
+// 示範使用方式
 animals.zip(colors)
 
 animals zip colors

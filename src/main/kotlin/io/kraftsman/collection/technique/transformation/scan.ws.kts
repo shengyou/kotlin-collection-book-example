@@ -7,7 +7,7 @@ package io.kraftsman.collection.technique.transformation
 // 建立範例資料
 val letters = listOf("a", "b", "c", "d")
 
-// 測試 APIs
+// 示範使用方式
 letters.scan("→") { accumulator, letter ->
     accumulator + letter
 }
