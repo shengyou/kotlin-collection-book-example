@@ -20,6 +20,9 @@ val warehouse = listOf(
 
 // 示範使用方式
 target.sortedWith(lengthComparator)
+target.sortedWith { str1, str2 ->
+    str1.length - str2.length
+}
 
 target.sortedWith(compareBy { it.length })
 target.sortedWith(compareByDescending { it.length })
