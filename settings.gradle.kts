@@ -2,7 +2,7 @@ rootProject.name = "kotlin-collection-book-example"
 
 pluginManagement {
     plugins {
-        val kotlinVersion = "1.6.20"
+        val kotlinVersion = "1.7.0"
         kotlin("jvm") version kotlinVersion
         kotlin("plugin.serialization") version kotlinVersion
     }
