@@ -11,6 +11,7 @@ val sayHi: () -> Unit = {
 }
 
 sayHi()
+sayHi.invoke()
 
 fun hello(name: String, greeting: (String) -> String): String {
     return greeting(name)
