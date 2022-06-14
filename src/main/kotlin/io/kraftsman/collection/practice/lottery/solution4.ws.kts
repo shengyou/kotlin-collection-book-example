@@ -3,7 +3,7 @@ package io.kraftsman.collection.practice.lottery
 (1..49)
     .subtract(listOf(13, 5, 17, 44, 12, 31, 7, 9, 8, 29))
     .shuffled()
-    .chunked(4)
+    .windowed(4, 4, partialWindows = false)
     .shuffled()
     .take(3)
     .let { groups ->
@@ -18,10 +18,10 @@ package io.kraftsman.collection.practice.lottery
         }
     }
 
-(1..49)
+val lotteryNumbersList = (1..49)
     .subtract(listOf(13, 5, 17, 44, 12, 31, 7, 9, 8, 29))
     .shuffled()
-    .chunked(4)
+    .windowed(4, 4, partialWindows = false)
     .shuffled()
     .take(3)
     .let { groups ->
