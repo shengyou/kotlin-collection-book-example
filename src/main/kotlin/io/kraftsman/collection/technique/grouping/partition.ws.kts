@@ -21,7 +21,10 @@ val people = listOf(
 )
 
 // 示範使用方式
-staff.partition { it.level <= 3 }
+val dividedStaff = staff.partition { it.level <= 3 }
+
+dividedStaff.first
+dividedStaff.second
 
 val (junior, senior) = staff.partition { it.level <= 3 }
 
