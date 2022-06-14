@@ -25,6 +25,11 @@ fun Commerce.thumbnail(
     width: Int = 100,
     height: Int = 100
 ): String {
-    val path = if (theme == ThumbnailTheme.RANDOM) "" else theme.name.lowercase()
-    return "https://api.lorem.space/image/$theme?w=$width&h=$height"
+    val path = if (theme == ThumbnailTheme.RANDOM) {
+        ""
+    } else {
+        "/${theme.name.lowercase()}"
+    }
+    return "https://api.lorem.space/image" +
+            "$path?w=$width&h=$height"
 }
