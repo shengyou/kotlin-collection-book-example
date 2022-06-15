@@ -11,6 +11,7 @@ import io.ktor.server.application.*
 import io.ktor.server.response.*
 import io.ktor.server.routing.*
 import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.delay
 import kotlinx.coroutines.withContext
 import java.time.LocalDateTime
 import java.time.format.DateTimeFormatter
@@ -60,7 +61,7 @@ fun Application.configureProductApi() {
             val seconds = call.request.queryParameters["time"]?.toIntOrNull()
             if (seconds != null) {
                 withContext(Dispatchers.IO) {
-                    Thread.sleep(seconds * 1000L)
+                    delay(seconds * 1000L)
                 }
             }
 
